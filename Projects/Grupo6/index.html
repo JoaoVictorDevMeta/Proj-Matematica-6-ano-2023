@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mat Class | Home</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="/css/images/fevicon.png" type="image/gif" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comfortaa:wght@300;400;500&family=Inter:wght@200;300;400;500;700&family=Red+Hat+Display:wght@300;400;500;600;800&family=Imprima&family=Vina+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="inicio">
+        <nav>
+            <img src="/css/images/logo.png" alt="Logo Oficial do IFPBCLass">
+            <ul class="nav-items">
+                <li>
+                    <a href="/views/index.html">Início</a>
+                </li>
+                <li>
+                    <a href="/views/form.html?gg=6">Formulário</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <div class="background">
+            </div>
+            <div class="presentation">
+                <h1>Grupo 6</h1>
+                <h2>Leticia Emilia, Pedro Wesley</h2>
+                <p>
+                    O conteúdo aborda situações e problemas que demandam o cálculo da fração de uma quantidade essencial. Isso inclui a capacidade de comparar frações de números naturais, com isso podemos explorar tais cenários tanto com o auxílio da calculadora quanto confiando no seu potencial e aprendizagem. 
+                </p>
+            </div>
+        </section>
+        <h1 class="appear">
+            O que você precisa saber sobre Frações
+        </h1>
+        <section class="content first">
+            <div class="image">
+                <img src="https://static.todamateria.com.br/upload/fr/ac/fracaomista-0-cke.jpg?auto_optimize=low" alt="" class="appear">
+                <img src="data:image/png;base64,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" alt="">
+            </div>
+            <div class="text">
+                <h1>
+                    Frações
+                </h1>
+                <h3>
+                    Objeto reconhecido: Frações: significados (parte/todo, quociente), equivalência, comparação; calculo da fração de um número natural; adição e subtração de frações.
+                </h3>
+                <p>
+                    Uma fração é uma expressão matemática que representa a parte de um todo. Consiste em dois números, o numerador e o denominador, separados por uma barra. O numerador indica a quantidade que estamos considerando, enquanto o denominador representa o número total de partes do todo. Por exemplo, na fração 1/2, 1 é o numerador (uma parte) e 2 é o denominador (duas partes no total). As frações são usadas para representar números racionais e são fundamentais em diversos contextos matemáticos, como na resolução de problemas envolvendo proporções, divisões e medidas.
+                </p>
+                <h2>
+                    Classificação das frações
+                </h2>
+                <ul>
+                    <li class="appear">
+                        <h4>1. Quanto à Relação Numerador-Denominador:</h4>
+                        <p>
+                            - Próprias (numerador < denominador)<br>
+                            - Impróprias (numerador ≥ denominador)<br>
+                            - Aparentes (numerador é múltiplo do denominador)                         
+                        </p>
+                    </li>
+                    <li class="appear">
+                        <h4>2. Equivalência:</h4>
+                        <p>
+                            - Equivalentes (representam a mesma quantidade, mas com numerações diferentes)
+                        </p>
+                    </li>
+                    <li class="appear">
+                        <h4>3. Complexidade:</h4>
+                        <p>
+                            - Simples (sem fatores comuns além de 1)<br>
+                            - Complexas (com fatores comuns)
+                        </p>
+                    </li>
+                    <li class="appear">
+                        <h4>4. Forma Decimal:</h4>
+                        <p>
+                            - Decimais (com parte decimal finita ou periódica)<br>
+                            - Fracionárias (sem equivalência exata em decimal)
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <h1 class="appear titulozinho">Agora sobre os Números Reais</h1>
+        <section class="content first">
+            <div class="text">
+                <h1>
+                    Números Reais
+                </h1>
+                <h3>
+                    Resolver e elaborar problemas que
+                    envolvam adição ou subtração com números
+                    racionais positivos na representação fracionária.
+                </h3>
+                <p>
+                    Números racionais são aqueles que podem ser expressos como frações, onde o numerador e o denominador são números inteiros, e o denominador não é zero. Isso inclui números inteiros e frações, abrangendo valores como -2, 0, 1/3, -4/5, entre outros. Os números racionais podem ser finitos ou ter uma representação decimal que se repete ou termina.
+                </p>
+                <h2>
+                    Classificação de Números Racionais:
+                </h2>
+                <ul>
+                    <li class="appear">
+                        <h4>1. Definição Geral:</h4>
+                        <p>
+                            - Números que podem ser expressos como frações.
+                        </p>
+                    </li>
+                    <li class="appear">
+                        <h4>2. Tipos Principais:</h4>
+                        <p> - Números inteiros (por exemplo, -2, 0, 3)<br>
+                            - Frações (por exemplo, 1/2, -3/4)<br>
+                            - Decimais finitos ou periódicos (por exemplo, 0,75, 1,333...)
+                        </p>
+                    </li>
+                    <li class="appear">
+                        <h4>3. Divisão em Categorias:</h4>
+                        <p>
+                            - Números positivos e negativos.<br>
+                            - Frações próprias e impróprias.<br>
+                            - Decimais finitos e periódicos.
+                        </p>
+                    </li>
+                    <li class="appear">
+                        <h4>4. Propriedades Específicas:</h4>
+                        <p> - Números irracionais (não podem ser expressos como frações exatas).</p>
+                    </li>
+                    <li class="appear">
+                        <h4>5. Relação com Outros Conjuntos Numéricos:</h4>
+                        <p> - Inclusão nos números reais, que abrangem racionais e irracionais.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="https://portaltobias.files.wordpress.com/2021/04/screenshot_20210422-194503_google.jpg?w=1119" alt="">
+            </div>
+        </section>
+        <section class="transition_1">
+            <div>
+                <h1 class="appear">
+                    Operadores
+                </h1>
+            </div>
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </section>
+        <section class="content first">
+            <div class="image">
+                <img src="https://4.bp.blogspot.com/-hbj6CKzNo3A/VKPVWl8ojBI/AAAAAAAAB1Y/rqIkqGiyLec/s1600/Conjuntos-Num%C3%A9ricos.png" alt="">
+                <img class="appear" src="https://img.freepik.com/vetores-premium/ilustracao-de-desenho-de-estimativa-de-custo_67813-2173.jpg?w=2000" alt="">
+            </div>
+            <div class="text">
+                <h1>
+                    Operações Matemáticas
+                </h1>
+                <h3>
+                    Resolver e elaborar situações problema
+                    com números racionais positivos na representação
+                    decimal, envolvendo as quatro operações
+                    fundamentais
+                </h3>
+                <p>
+                    Essas situações problema incentivam o uso de estratégias diversas, como estimativas, arredondamentos e cálculos mentais, para verificar a razoabilidade das respostas, promovendo o entendimento intuitivo dos números racionais positivos na representação decimal.
+                </p>
+                <h2>
+                    Algumas situações problema
+                </h2>
+                <ul>
+                    <li class="appear">
+                        <h4>1. Adição com Estratégias de Estimativa:</h4>
+                        <p>
+                            - Situação: Em uma loja, você compra um produto que custa aproximadamente $25.80 e outro que custa cerca de $14.20. Usando estimativas, quanto você espera gastar?
+                        </p>
+                        <p><span>
+                            Resposta - $25.80 + $14.20 ≈ $40 (Estimativa)
+                        </span></p>
+                    </li>
+                    <li class="appear">
+                        <h4>2. Subtração com Arredondamentos:
+                        </h4>
+                        <p> - Situação: Maria recebeu um pagamento de $150.60 e pagou $38.25 de contas. Com arredondamentos, quanto dinheiro ela tem agora?
+                        </p>
+                        <p><span>
+                            Resposta - $150.60 - $38.25 ≈ $112 (Arredondamento)
+                        </span></p>
+                    </li>
+                    <li class="appear">
+                        <h4>3. Multiplicação com Estimativas:</h4>
+                        <p>
+                            - Situação: Você está comprando 8 produtos, cada um custando aproximadamente $3.75. Usando estimativas, qual será o custo total?
+                        </p>
+                        <p><span>
+                            Resposta - 8 * $3.75 ≈ $30 (Estimativa)
+                        </span></p>
+                    </li>
+                    <li class="appear">
+                        <h4>4. Divisão com Estratégia de Estimativa:</h4>
+                        <p>- Situação: Um reservatório tem cerca de 95.2 litros de água e será dividido igualmente entre 4 baldes. Com base em estimativas, quanto cada balde conterá?</p>
+                        <p><span>
+                            Resposta - 95.2 / 4 ≈ 23.8 (Estimativa)
+                        </span></p>
+                    </li>
+                    <li class="appear">
+                        <h4>5. Potenciação com Verificação Razoável:</h4>
+                        <p>- Situação: Um investimento cresce a uma taxa média de 6% ao ano. Após 3 anos, usando a potenciação, estime quanto o investimento terá crescido em termos percentuais.
+                        </p>
+                        <p><span>
+                            - \(1 + 0.06)^3 ≈ 1.191016\) ou um aumento de aproximadamente 19.10%
+                        </span></p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <div class="last-desc" >
+                <h3>Conteudo:</h3>
+                <p>
+                    Leticia Emilia
+                </p>
+                <h3>Apoio e Estruturação do Site:</h3>
+                <p>
+                    João Victor Gouveia
+                </p>
+            </div>
+            <div class="formulario">
+                <div class="title">
+                    <h1>Formulário</h1>
+                </div>         
+                <p>
+
+                </p>
+                <a href="/views/form.html?gg=6">Acessar Formulário</a>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="/js/index.js"></script>
+</html>

@@ -1,0 +1,169 @@
+{
+    "quests": [
+      {
+        "texts": ["Qual é a definição correta de um ângulo?"],
+        "choices": [
+           "Uma linha reta.",
+           "A medida da inclinação de uma reta.",
+           "A junção de duas semirretas em um ponto comum.",
+           "Uma forma geométrica com três lados.",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 3
+      },
+      {
+        "texts": ["Se um quadrado tem quatro ângulos retos, quantos graus mede cada ângulo?"],
+        "choices": [
+           "45 graus",
+           "60 graus",
+           "90 graus",
+           "120 graus",
+          "Nenhuma das Anteriores"
+        ],
+        "correct": 3
+      },
+      {
+        "texts": ["Qual é a medida de um ângulo reto?"],
+        "choices": [
+           "45 graus",
+           "90 graus",
+           "180 graus",
+           "360 graus",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 2
+      },
+      {
+        "texts": ["Se um triângulo tem um ângulo de 30 graus e outro de 60 graus, qual é a medida do terceiro ângulo?"],
+        "choices": [
+           "30 graus",
+           "60 graus",
+           "90 graus",
+           "120 graus",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 1
+      },
+      {
+        "texts": ["Em uma sala retangular, qual é a medida dos ângulos formados pelas paredes que se encontram?"],
+        "choices": [
+           "45 graus",
+           "60 graus",
+           "90 graus",
+           "180 graus",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 3
+      },
+      {
+        "texts": ["Em um dado comum, qual é a probabilidade de sair um número par ao lançá-lo?"],
+        "choices": [
+           "1/3 ou 0,33 ou 33%",
+           "1/6 ou 0,17 ou 17%",
+           "1/2 ou 0,5 ou 50%",
+           "2/3 ou 0,67 ou 67%",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 3
+      },
+      {
+        "texts": ["Em uma caixa com 10 bolas, sendo 4 vermelhas, 3 azuis e 3 verdes, qual é a probabilidade de escolher uma bola azul aleatoriamente?"],
+        "choices": [
+           "3/10 ou 0,3 ou 30%",
+           "1/4 ou 0,25 ou 25%",
+           "3/5 ou 0,6 ou 60%",
+           "2/5 ou 0,4 ou 40%",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 4
+      },
+      {
+        "texts": ["Se uma moeda é lançada, qual é a probabilidade de que ela caia com a face 'cara' para cima?"],
+        "choices": [
+           "1/2 ou 0,5 ou 50%",
+           "1/4 ou 0,25 ou 25%",
+           "3/4 ou 0,75 ou 75%",
+           "1/3 ou 0,33 ou 33%",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 1
+      },
+      {
+        "texts": ["Em um saco contendo 15 balas, sendo 5 de morango, 4 de limão e 6 de laranja, qual é a probabilidade de pegar uma bala de laranja?"],
+        "choices": [
+           "2/3 ou 0,67 ou 67%",
+           "1/4 ou 0,25 ou 25%",
+           "2/5 ou 0,4 ou 40%",
+           "6/15 ou 0,4 ou 40%",
+           "Nenhuma das Anteriores"
+    ],
+        "correct": 3
+      },
+      {
+        "texts": ["Se um dado é lançado 20 vezes e o número 5 aparece 4 vezes, qual é a probabilidade experimental de que o número 5 saia em um lançamento?"],
+        "choices": [
+           "1/4 ou 0,25 ou 25%",
+           "1/5 ou 0,2 ou 20%",
+           "2/5 ou 0,4 ou 40%",
+           "1/20 ou 0,05 ou 5%",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 2
+      },
+      {
+        "texts": ["Qual é a função do título em uma tabela ou gráfico?"],
+        "choices": [
+           "Indicar as datas importantes relacionadas aos dados.",
+           "Nomear os eixos horizontal e vertical.",
+           "Resumir ou descrever o conteúdo ou tema dos dados apresentados.",
+           "Apresentar a fonte das informações contidas no gráfico.",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 3
+      },
+      {
+        "texts": ["Em um gráfico de barras, onde são representados os dados?"],
+        "choices": [
+           "No eixo horizontal.",
+           "Na legenda.",
+           "No título.",
+           "Nos rótulos das barras.",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 4
+      },
+      {
+        "texts": ["Ao observar um gráfico de setores (pizza), como são expressadas as diferentes porcentagens ou partes de um todo?"],
+        "choices": [
+           "Por meio de barras verticais.",
+           "Por cores diferentes em cada setor do círculo.",
+           "Por linhas tracejadas.",
+          "Por números escritos dentro do círculo.",
+          "Nenhuma das Anteriores"
+        ],
+        "correct": 2
+      },
+      {
+        "texts": ["Qual é a principal função das legendas em uma tabela ou gráfico?"],
+        "choices": [
+          "Indicar a fonte das informações.",
+           "Descrever cada categoria ou elemento representado nos dados.",
+           "Nomear os eixos do gráfico.",
+         "Apresentar o título da tabela ou gráfico.",
+         "Nenhuma das Anteriores"
+        ],
+        "correct": 2
+      },
+      {
+        "texts":[ "Em uma tabela que mostra a quantidade de livros lidos por alunos de diferentes séries, qual seria a variável apresentada na coluna?"],
+        "choices": [
+           "A quantidade de alunos por série.",
+           "O título da tabela.",
+           "O número de livros lidos por aluno.",
+           "A fonte das informações.",
+           "Nenhuma das Anteriores"
+        ],
+        "correct": 3
+  }
+  ]
+  }

@@ -1,0 +1,247 @@
+{
+    "quests": [
+    {
+        "type" : "algebra",
+        "texts": [
+          "Seguindo as explicações, resolva a equação: y + 7=15. Qual é o valor de y?"
+        ],
+        "choices": [  
+            15,
+            7,
+            8,
+            21,
+            0
+        ],
+        "correct": 3
+
+    },
+
+    {
+        "type" : "algebra",
+        "texts": [
+          "Seguindo as explicações. Determine o valor de c+3x2=11. Qual é o valor de c?" 
+        ],
+        "choices": [  
+            5,
+            7,
+            15,
+            22,
+            1
+        ],
+        "correct": 1
+    },
+    {
+        "type" : "algebra",
+        "texts": [
+        "Resolva a equação 3y+7=16-2y. Qual é o valor de y?"
+        ],
+        "choices": [  
+            "9/2",
+            "9/7",
+            "3/5",
+            "2/5",
+            "9/5"
+        ],
+        "correct": 5
+    },
+    {
+        "type" : "algebra",
+        "texts": [
+        "Considere a expressão 2 (a - 4) = 10. Qual é o valor de (a) ?"
+        ],
+        "choices": [  
+            3,
+            9,
+            7,
+            18,
+            2
+        ],
+        "correct": 2
+    },
+    {
+    "type" : "algebra",
+    "texts": [
+      "João tem o dobro da idade de Maria, e a soma de suas idades é 30. Escreva uma equação para representar essa situação e determine as idades de Maria e João." ,
+      "as idades são, respectivamente:"
+    ],
+    "choices": [  
+        "20,10",
+        "20,40",
+        "25,50",
+        "10,20",
+        "15,15"
+    ],
+    "correct": 4
+    },
+    {
+    "type" : "grafico",
+    "imagem" : "https://lh5.googleusercontent.com/56P4vDMLrcWnis0uguri_G-7u4BNfOYmSF_jV3VZBp12XOe-yUePAnc3SqkYE-LqHem2wLfDde6P27CyC0hSWaYvKlfP6r18IrO47mOq6TPuml3iCsb3-cZSRpG00dEEOIHMw0A=s0",
+    "texts": [
+      "O Departamento Intersindical de Estatística e Estudos Socioeconômicos (DIEESE) realiza uma pesquisa mensal do valor da Cesta Básica de Alimentos em diversos municípios do Brasil. Observe o gráfico.", 
+
+      "Qual produto teve a arrecadação pela exportação sempre aumentando de um ano para outro? Em que ano cada um dos produtos teve a maior arrecadação? E em que ano a soja foi responsável por mais da metade da arrecadação da exportação?."
+    ],
+    "choices": [  
+        "milho,Soja 2017, café 2018 e milho 2019,2017",
+        "café,Soja 2017, café 2018 e milho 2019,2018",
+        "café,milho 2017, café 2018 e Soja 2019,2017",
+        "milho,café 2017, milho 2018 e Soja 2019,2017",
+        "café,milho 2017, soja 2018 e café 2019,2019"
+    ],
+    "correct": 1
+    },
+    {
+    "type" : "grafico",
+    "imagem": "/css/formImages/grup9xy.png",
+    "texts": [
+      "Uma loja realizou uma pesquisa interna para determinar quais aparelhos eletronicos foram vendidos no mês de abril. ", 
+      "Qual o aparelho eletrônico mais vendido? Quantos aparelhos eletrônicos a quantidade de venda foi superior 30? A quantidade de tablets vendidos é inferior à de computadores? "
+    ],
+    "choices": [  
+        "celular, 2, sim",
+        "televisão, 3, não",
+        "televisão, 2, não",
+        "tablets, 4, sim",
+        "computador, 1, sim"
+    ],
+    "correct":  3
+    },
+
+    {
+    "type" : "grafico",
+    "imagem" : "https://lh5.googleusercontent.com/mrB3-r7013aHGqvfgEdRazB6Qk-b_yzQfzTFlC_HsHUKaZBagZ5rKPhI2qcVWbbTjEBZAbm6Pdd7faLi-OpRY4yX1Wq9KGlafXb0daU3dPACRR3aTPqFWBjok1MYf3XWeQFdXHk=s0",
+    "texts": [
+      "(OBM) Os resultados de uma pesquisa das cores de cabelo de 1 200 pessoas são mostrados no gráfico acima. Quantas dessas pessoas possuem o cabelo loiro?"
+    ],
+    "choices": [  
+        160,
+        220,
+        460,
+        300,
+        360
+    ],
+    "correct":  5
+    },
+  
+    {
+    "type" : "grafico",
+    "imagem" : "/css/formImages/grup9xx.png",
+    "texts": [
+      "O gráfico de linhas acima, apresenta o faturamento de uma empresa nesse semestre", 
+      "Em que mês houve o menor faturamento? Qual mês foi o melhor em faturamento para a empresa?Qual a diferença, em vendas, entre os meses de abril e fevereiro?"
+    ],
+    "choices": [  
+        "maio, fevereiro, abril = 50.000 e fevereiro >= 40.000",
+        "janeiro, fevereiro, abril > 70.000 e fevereiro >= 40.000",
+        "Fevereiro, Abril, abril > 70.000 e fevereiro >= 30.000",
+        "junho, março, abril < 70.000 e fevereiro >= 40.000",
+        "abril, fevereiro, abril > 70.000 e fevereiro >= 40.000"
+    ],
+    "correct":  3
+    },
+    {
+    "type" : "grafico",
+    "imagem" : "https://lh3.googleusercontent.com/Z-oo6Inigx3Fx0weR7K1CxdUKEVyWZqwy4rOKTc3xhUqyD0XlDF3fHAUcnDYyAIUFiDewrb8d0vpYMqysnmp3My1dFZdgy_X1UAzvDRq-cVPmhKHoSRxPgN6L6eANgGBaCnN2Sk=s0",
+    "texts": [
+      "A professora de Matemática do 9ª ano de uma escola apresentou o gráfico acima para seus alunos analisarem.", 
+      "Em qual turma há mais meninos? Quantos são? Quantos alunos tem a turma com a menor quantidade de alunos?"
+    ],
+    "choices": [  
+        "9A,20,9B 30",
+        "9B,25,9C 40",
+        "9C,15,9B 20",
+        "9A,25,9B 35",
+        "Nenhuma das anteriores"
+    ],
+    "correct":  5
+},
+
+
+{
+  "type" : "tabela",
+  "imagem" : "/css/formImages/grup9xc.png",
+  "texts": [
+    "Dada a tabela acima, qual é a média dos valores na coluna B?"
+  ],
+  "choices": [  
+    3,
+    9,
+    5,
+    6,
+    7
+
+  ],
+  "correct": 4
+},
+
+{
+  "type" : "tabela",
+  "imagem" : "/css/formImages/grup9xz.png",
+  "texts": [
+    "Na tabela a seguir, há uma correlação entre as colunas X e Y? Se sim, como você descreveria esse relacionamento?"
+  ],
+  
+  "choices": [  
+    "Não há correlação",
+    "Correlação positiva",
+    "Correlação negativa",
+    "Correlação perfeita positiva",
+    "Correlação perfeita negativa"
+  
+  ],
+  "correct": 2
+},
+{
+  "type" : "tabela",
+  "imagem": "/css/formImages/grup9xa.png",
+  "texts": [
+    "Utilizando a tabela de vendas mensais acima, em qual mês a categoria C obteve o maior aumento percentual em relação ao mês anterior?"
+  ],
+
+  "choices": [  
+    "Janeiro",
+    "Não houve aumento percentual",
+    "Março",
+    "Fevereiro",
+    "Não é possível determinar"
+
+  ],
+  "correct": 4
+},
+{
+
+  "type" : "tabela",
+  "imagem": "/css/formImages/grup9xb.png",
+  "texts": [
+    "Olhando para a tabela de desempenho trimestral, é possível identificar alguma tendência positiva ou negativa ao longo do tempo?"
+  ],
+
+  "choices": [  
+    "Tendência positiva",
+    "Tendência negativa",
+    "Não há tendência",
+    "Tendência oscilante",
+    "Não é possível determinar"
+
+  ],
+  "correct": 1
+},
+{
+    "type" : "tabela",
+    "imagem": "/css/formImages/grup9xd.png",
+    "texts": [
+      "Na tabela de distribuição de idades acima, qual é a faixa etária mais comum?"
+    ],
+
+    "choices": [  
+     "36-45",
+     "26-35",
+     "Outra faixa etária",
+     "Não é possível determinar",
+     "18-25"
+    ],
+    "correct": 5
+
+    }
+]
+}

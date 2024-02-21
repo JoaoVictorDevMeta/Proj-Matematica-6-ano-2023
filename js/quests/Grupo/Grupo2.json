@@ -1,0 +1,180 @@
+{
+"quests": [
+		{
+		"type": "poligonos",
+		"texts": [
+            "(PROMUN 2023 - Adaptada) Polígonos que possuem 5 lados e 6 lados são  respectivamente:"
+            ],
+		"choices": [
+			"Pentágono e Heptágono",
+            "Pentágono e Hexágono",
+            "Hexágono e Heptágono",
+            "Heptágono e Octógono",
+            "Pentágono e Octógono"
+        ],
+        "correct": 2
+    },
+    {
+        "type": "poligonos",
+		"texts": [
+            "(Mundo Educação - Adaptada) Sobre o conceito de polígono convexo e não convexo, marque a alternativa correta."
+            ],
+		"choices": [
+	        "Um polígono é convexo quando todos os seus lados e também os seus ângulos são congruentes, ou seja, possuem a mesma medida.",
+            "Um polígono é convexo quando possui diagonais.",
+            "Um polígono é convexo quando, dados quaisquer dois pontos (A e B) pertencentes ao polígono, o segmento de reta AB também pertence ao polígono.", 
+            "Um polígono é convexo quando a quantidade de diagonais é igual à quantidade de lados.",
+            "Nenhuma das alternativas."
+        ],
+        "correct": 3
+    },
+    {
+        "type": "poligonos",
+        "texts": [
+            "(Brasil Escola) Julgue as afirmativas a seguir:",
+            "I - Todo polígono possui diagonal.",
+            "II - A soma dos ângulos internos de um quadrilátero é sempre igual a 360º.",
+            "III - O dodecágono é um polígono de 12 lados.",
+            "Marque a alternativa correta:"
+        ],
+        "choices": [
+            "Todas as afirmativas são verdadeiras.",
+            "Somente a afirmativa I é falsa.",
+            "Somente a afirmativa II é falsa.",
+        "Somente a afirmativa III é falsa.",
+        "Todas as afirmativas são falsas."
+        ],
+        "correct": 1
+    },
+    {
+        "type": "poligonos",
+        "texts": [
+            "(Toda Matéria) Analise se afirmativas são verdadeiras (V) ou falsas, (F) e marque a opção que classifica a sequência corretamente.",
+            "I - Triângulo equilátero é aquele com as medidas de todos seus lados iguais.",
+            "II - Escaleno é o nome de um triângulo que possui as medidas de dois lados iguais.",
+            "III - Obtusângulo é o triângulo que possui ângulo reto.",
+            "IV - Chama-se acutângulo o triângulo com seus três ângulos internos agudos."
+        ],
+        "choices": [
+            "V, F, V, V",
+            "F, F, F, V",
+            "V, F, F, V",
+            "V, F, F, F",
+            "V, V, V, V"
+        ],
+        "correct": 3
+    },
+    {
+        "type": "poligonos",
+        "texts": [
+            "(Mundo Educação) Um conceito importante ao estudar polígonos é o de polígono regular. Dos polígonos a seguir, indique aquele que é sempre regular."
+        ],
+        "choices": [
+            "Retângulo",
+            "Losango",
+            "Trapézio",
+            "Triângulos isósceles",
+            "Quadrado"
+        ],
+"correct": 5
+},
+{
+"type": "poligonos",
+"texts": [
+	"(Tudo de Sala de Aula - Adaptada) Considere um quadrilátero formado pelos vértices A, B, C e D. Se os ângulos internos A = 105º, B = 96º e C = 35º, então, a medida do ângulo externo de D vale:"
+],
+"choices": [
+	"124°",
+	"84°",
+	"66°",
+"56°",
+"Nenhuma das alternativas"
+],
+"correct": 4
+},
+{
+"type": "poligonos",
+"texts": [
+	"(Mundo Educação) Qual é a área de um trapézio isósceles que possui base maior medindo 32 cm, base menor medindo 20 cm e altura igual a 8 cm?"
+],
+"choices": [
+	"168 cm²",
+"165 cm²",
+"160 cm²",
+"156 cm²",
+"150 cm²"
+],
+"correct": 1
+},
+{
+"type": "poligonos",
+"texts": [
+	"(Mundo Educação) Qual é a área de um losango que possui diagonal maior igual a 15 cm e diagonal menor igual a 1/3 da diagonal maior?"
+],
+"choices": [
+	"37,5 cm²",
+	"35 cm²",
+	"32,5 cm²",
+"30 cm²",
+"28,5 cm²"
+],
+"correct": 1
+},
+{
+"type": "poligonos",
+"texts": [
+	"(Brasil Escola) Os triângulos podem ser classificados com relação aos seus ângulos ou com relação aos seus lados. Dois triângulos colocados lado a lado possuem as seguintes características: o primeiro possui um ângulo de 90°01' e o segundo possui três lados iguais. As classificações respectivamente corretas para esses triângulos são:"
+],
+"choices": [
+	"Retângulo e isósceles",
+	"Retângulo e escaleno",
+	"Retângulo e equilátero",
+"Obtusângulo e escaleno",
+"Obtusângulo e equilátero"
+],
+"correct": 5
+},
+{
+"type": "poligonos",
+"texts": [
+	"(Brasil Escola) Sobre as propriedades, características e resultados a respeito de triângulos, marque a alternativa correta:"
+],
+"choices": [
+	"A soma dos ângulos internos de um triângulo isósceles é igual a 180°.",
+	"A soma dos lados de um triângulo sempre é igual à sua área.",
+	"A soma de dois lados de um triângulo é sempre menor que o terceiro lado, que não foi somado.",
+"Os triângulos retângulos possuem um único ângulo raso.",
+"Um triângulo que possui três lados iguais é chamado de isósceles."
+],
+"correct": 1
+},
+{
+"type": "poligonos",
+"texts": [
+	"(Mundo Educação) Um triângulo possui base de 12 cm e a altura relativa a essa base igual a 8 cm. A área desse triângulo é igual a:"
+],
+"choices": [
+	"12 cm²",
+	"20 cm²",
+	"24 cm²",
+"48 cm²",
+"96 cm²"
+],
+"correct": 4
+},
+{
+"type": "poligonos",
+"texts": [
+	"(Mundo Educação) Durante uma fiscalização do Ibama, em uma área de desmatamento ilegal na Amazônia, foi encontrada uma região que possui uma área de 64 km² e formato próximo a um triângulo, com base medindo 8 km. Nessas condições, a altura desse triângulo tem que ser de:"
+],
+"choices": [
+	"128 km",
+	"32 km",
+	"16 km",
+"12 km",
+"8 km"
+],
+"correct": 3
+}
+]
+}

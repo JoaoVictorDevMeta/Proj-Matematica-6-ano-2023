@@ -1,0 +1,94 @@
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #343134;
+}
+
+h2{
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+}
+h3{
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  color: rgb(59, 59, 59);
+}
+h4{
+   text-align: justify;
+   font-size: 22px;
+   font-family: 'Red Hat Display';
+   font-weight: 400;
+}
+p{
+  font-size: 20px;
+  font-family: 'Red Hat Display';
+
+}
+body{
+  background-color: #ffffff;
+}
+.resposta{
+  border: 2.5px dotted #3D8160;
+}
+nav{
+  background-color: #3D8160;
+  width: 95vw;
+  height: 50px;
+  display: flexbox;
+  visibility: hidden;
+
+}
+ul{
+  display: flex;
+  height: 100%;
+  top:0%;
+}
+li{
+  display: inline-flex;
+  background-color: #98d8aa;
+  width: 33%;
+  align-items: center;
+  height: 100%;
+border: 1px solid #010905;
+  position: relative;
+  top: -35%;
+margin: auto;
+visibility: visible;}
+a{
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  border-radius: 20px;
+  font-size: 200%;
+}
+h1{
+  text-align: center;
+}
+.cabeçalho {
+    background-color: #98d8aa;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.texto{
+  background-color: #97ebb9;
+  border: 1px solid #000000;
+  align-items: center;
+  margin-top: 3%;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 40px;
+  width: 70%;
+  margin-left: 13%;
+  border-radius: 20px;
+  }
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  background-color:#3D8160;
+}
+footer p {
+  margin: 0;
+}

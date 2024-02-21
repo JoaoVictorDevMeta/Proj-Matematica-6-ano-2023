@@ -1,0 +1,170 @@
+	
+{
+    "quests": [
+        {
+                "type" : "ângulos",
+                "texts": [
+                    "Sobre a classificação dos ângulos, marque a alternativa correta:"
+            ],
+                "choices": [
+                    "Um ângulo é classificado como reto quando ele possui medida menor ou igual a 90°.",
+                    "Dois ângulos são complementares quando a soma deles é igual a 180°.",
+                    "Um ângulo é classificado como agudo quando a sua medida é menor do que 90°.",
+                    "Dois ângulos cuja soma é igual a 90° graus são conhecidos como ângulos obtusos.",
+                    "Nenhuma das anteriores"
+                ],
+                "correct": 3
+        },
+        {
+                "type" : "ângulos",
+                "imagem" : "https://s2.static.brasilescola.uol.com.br/exercicios/2021/04/questao-11.jpg",
+                "texts": [
+                    " Analisando a imagem seguinte, podemos afirmar que o valor de x + y é:"
+                ],
+                "choices": [
+                    "15°",
+                    "11°",
+                    "10°",
+                    "21°",
+                    "24°"
+                ],
+                "correct": 4
+        },
+        { 
+                "type" : "ângulos",
+                "imagem" : "https://s5.static.brasilescola.uol.com.br/exercicios/2021/04/questao-12.jpg",
+                "texts": [
+                    "Sabendo que o seguimento AD é bissetriz do ângulo B C, então, o valor desse ângulo B C é:"],
+        
+                "choices": [
+                    "25°",
+                    "35°",
+                    "50°",
+                    "70°",
+                    "75°"
+                ],
+                "correct":4
+        },
+        {
+                "type" : "ângulos",
+                "imagem" : "https://s1.static.brasilescola.uol.com.br/exercicios/2021/03/2-questao-4.jpg",
+                "texts": [
+                    "Sabendo que os ângulos são suplementares, e analisando a imagem a seguir, o valor de x é igual a:"
+                ],
+                "choices": [
+                    "10°",
+                    "11°",
+                    "12°",
+                    "13°",
+                    "14°"
+                ],
+                "correct": 4
+        },
+        {
+                "type" : "ângulos",
+                "texts": [
+                    "Paulo é um estudante curioso e observador. Ele estava analisando o movimento dos ponteiros de um relógio analógico e ficou intrigado com os ângulos formados entre eles em diferentes horários. Paulo percebeu que ao longo do dia, os ponteiros do relógio se movem e formam ângulos distintos, indicando diferentes horas. Ele decidiu investigar esses ângulos para aprimorar seus conhecimentos matemáticos.",
+                    "Qual é o ângulo formado pelos ponteiros do relógio quando ele marca 6 h e 30 min?"
+                ],     
+                "choices": [
+                    "5°",
+                    "15°",
+                    "30°",
+                    "60°",
+                    "120°"
+                ],
+                "correct": 2
+        },
+        { 
+                "type" : "ângulos",
+                "imagem" : "https://s3.static.brasilescola.uol.com.br/exercicios/2021/03/3-questao6.jpg",
+                "texts": [
+                    "(Enem 2018) A rosa dos ventos é uma figura que representa oito sentidos, que dividem o círculo em partes iguais.",
+                    "Uma câmera de vigilância está fixada no teto de um shopping e sua lente pode ser direcionada remotamente, através de um controlador, para qualquer sentido. A lente da câmera está apontada inicialmente no sentido oeste e o seu controlador efetua três mudanças consecutivas, a saber:",
+                    "• 1ª mudança: 135° no sentido anti-horário;",
+                    "• 2ª mudança: 60° no sentido horário;",
+                    "• 3ª mudança: 45° no sentido anti-horário.",
+                    "Após a 3ª mudança, ele é orientado a reposicionar a câmera, com a menor amplitude possível, no sentido noroeste (NO) devido a um movimento suspeito de um cliente.",
+                    "Qual mudança de sentido o controlador deve efetuar para reposicionar a câmera?"
+        ],
+        
+                "choices": [
+                    "75° no sentido horário",
+                    "105° no sentido anti-horário",
+                    "120° no sentido anti-horário",
+                    "135° no sentido anti-horário",
+                    "165° no sentido horário"
+                ],
+                "correct": 5
+        },
+        {
+                "type" : "ângulos",
+                "imagem" : "https://s2.static.brasilescola.uol.com.br/exercicios/2021/03/4-questao-7.jpg",
+                "texts": [
+                    "(Enem 2017) A imagem apresentada na figura é uma cópia em preto e branco da tela quadrada intitulada O peixe, de Marcos Pinto, que foi colocada em uma parede para exposição e fixada nos pontos A e B.",
+                    "Por um problema na fixação de um dos pontos, a tela se desprendeu, girando rente à parede. Após o giro, ela ficou posicionada como ilustrado na figura, formando um ângulo de 45° com a linha do horizonte.",
+                    "Para recolocar a tela na sua posição original, deve-se girá-la, rente à parede, no menor ângulo possível inferior a 360°. A forma de recolocar a tela na posição original, obedecendo ao que foi estabelecido, é girando-a em um ângulo de:"
+        ],
+        
+                "choices": [
+                    "90° no sentido horário.",
+                    "135° no sentido horário.",
+                    "180° no sentido anti-horário.",
+                    "270° no sentido anti-horário.",
+                    "315° no sentido horário."
+                ],
+                "correct":2
+        },
+
+        {
+            "type" : "ângulos",
+            "imagem": "https://s4.static.brasilescola.uol.com.br/exercicios/2021/03/5-questao-8.jpg",
+            "texts": [
+                "(IFG) Supondo que a'//a e b'//b, marque a alternativa correta."
+        ],
+    
+            "choices": [
+                "x = 31° e y = 31°",
+                "x = 56° e y = 6°",
+                "x = 6° e y = 32°",
+                "x = 28° e y = 34°",
+                "x = 34° e y = 28°"
+            ],
+            "correct":2
+        },
+
+        {
+                "type" : "ângulos",
+                "imagem": "https://static.todamateria.com.br/upload/im/ag/imagem1-66.jpg?auto_optimize=low",
+                "texts": [
+                    "Um triângulo é um polígono com três lados e três ângulos. Sabendo que ao somar os três ângulos de qualquer triângulo o resultado é sempre o ângulo raso, no triângulo abaixo o ângulo que está faltando é de:"
+        ],
+        
+                "choices": [
+                    "29°",
+                    "40°",
+                    "47°",
+                    "53°",
+                    "60°"
+                ],
+                "correct": 5
+        },
+        {
+                "type" : "ângulos",
+                "texts": [
+                    "Sabendo que dois ângulos x e y são suplementares e, que o ângulo x possui 36°, a medida do ângulo y é igual a:"
+        ],
+        
+                "choices": [
+                    "24°",
+                    "54°",
+                    "64°",
+                    "144°",
+                    "324°"
+                ],
+                "correct": 4
+        }
+        
+        ]
+    }
+        

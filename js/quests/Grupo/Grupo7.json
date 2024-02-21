@@ -1,0 +1,142 @@
+{
+    "quests1": {
+        "type": "Múltiplo e divisor",
+        "texts": [
+            "Quais dos números a seguir estão entre os divisores de 148?"
+        ],
+        "choices": [
+            "A) D = {4, 7, 8}",
+            "B) D = {4, 8, 37}",
+            "C) D = {2, 4, 37, 148}",
+            "D) D = {2, 8, 37}",
+            "E) D = {2, 4, 7, 37}"
+        ],
+        "correct": 3
+    },
+    "quests2": {
+        "type": "Fração",
+        "texts": [
+            "A turma do 6º ano está organizando uma festa e decidiu fazer suco de frutas para todos os alunos. Eles têm 3 litros de suco de laranja e 5 litros de suco de uva. A professora sugeriu misturar os dois sucos para criar uma nova bebida."
+        ],
+        "choices": [
+            "A) 1,5 litros de suco de laranja e 1,67 litros de suco de uva",
+            "B) 1,5 litros de suco de laranja e 2,5 litros de suco de uva.",
+            "C) 1 litro de suco de laranja e 1,67 litros de suco de uva.",
+            "D) 1 litro de suco de laranja e 1,5 litros de suco de uva.",
+            "E) nenhuma das anteriores"
+        ],
+        "correct": 1
+    },
+    "quests3": {
+        "type": "Decimal para fração e vice-versa",
+        "texts": [
+            "Qual destas alternativas é a conversão correta de 0,1?"
+        ],
+        "choices": [
+            "A) 1/5",
+            "B) 3/4",
+            "C) 1/7",
+            "D) 6/10",
+            "E) 1/10"
+        ],
+        "correct": 5
+    },
+    "quests4": {
+        "type": "Decimal para fração e vice-versa",
+        "texts": [
+            "Qual destas alternativas é a conversão correta de 4/3?"
+        ],
+        "choices": [
+            "A) 0,3333...",
+            "B) 0.4444...",
+            "C) 1,3333...",
+            "D) 0,5",
+            "E) 0,666..."
+        ],
+        "correct": 3
+    },
+    "quests5": {
+        "type": "Múltiplo e divisor",
+        "texts": [
+            "Uma livraria está com uma promoção de 'leve 3, pague 2' em todos seus livros. Se um livro custa 30 reais, o valor a ser pago por 6 livros será no valor de: "
+        ],
+        "choices": [
+            "A) 45 reais",
+            "B) 60 reais",
+            "C) 90 reais",
+            "D) 120 reais",
+            "E) 150 reais"
+        ],
+        "correct": 1
+    },
+    "quests6": {
+        "type": "Decimal para fração e vice-versa",
+        "texts": [
+            "Comi um quarto de uma pizza e distribuí o restante com meus irmãos. Isso corresponde em que porcentagem?"
+        ],
+        "choices": [
+            "A) 60%",
+            "B) 25%",
+            "C) 24%",
+            "D) 20%",
+            "E) 75%"
+        ],
+        "correct": 2
+    },
+    "quests7": {
+        "type": "Fração",
+        "texts": [
+            "Como se lê a fração 3/4?"
+        ],
+        "choices": [
+            "A) Três quartos",
+            "B) Quatro sobre três",
+            "C) Metade",
+            "D) Um inteiro",
+            "E) Três e meio"
+        ],
+        "correct": 1
+    },
+    "quests8": {
+        "type": "Múltiplo e divisor",
+        "texts": [
+            "Planeja-se criar um jogo de cartas com 100 cartas. Quantos jogadores poderão participar desse jogo que não seja uma pessoa só com todas as cartas? (Dica: Encontre os divisores de 100)"
+        ],
+        "choices": [
+            "A) 3, 5, 10, 90",
+            "B) 2, 4, 5, 10, 40",
+            "C) 1, 2, 4, 5, 10, 20, 25, 50, 100",
+            "D) 1, 2, 4, 5, 10, 20, 25, 50",
+            "E) Todas estão corretas"
+        ],
+        "correct": 4
+    },
+    "quests9": {
+        "type": "Fração",
+        "texts": [
+            "Foi feito um bolo de cenoura com cobertura de chocolate. Esse saboroso bolo foi dividido em 12 pedaços. Joana acabou comendo 3 pedaços desse bolo. Quantos pedaços restaram? (Dica: Represente o restante do bolo em forma de fração)"
+        ],
+        "choices": [
+            "A) 3/12",
+            "B) 9/12",
+            "C) 3/9",
+            "D) 12/12",
+            "E) Todas as opções estão erradas"
+        ],
+        "correct": 2
+    },
+    "quests10": {
+        "type": "Fração",
+        "texts": [
+            "Em um rodízio de pizza, foi oferecido em um prato, 1/5 de pizza de carne de sol e 2/5 de pizza de frango com catupiry. A adição dessas fatias em um prato resulta em: "
+        ],
+        "choices": [
+            "A) 3/5",
+            "B) 4/5",
+            "C) 5/5",
+            "D) 2/5",
+            "E) 1/5"
+        ],
+        "correct": 1
+    }
+}

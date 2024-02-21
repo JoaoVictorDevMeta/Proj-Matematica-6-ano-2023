@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercício</title>
+  <style>
+    /* Adiciona algum estilo ao botão de revelar resposta */
+    .btn-acao {
+      margin-top: 10px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn-revelar {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+    }
+
+    .btn-esconder {
+      background-color: #f44336;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="gradecentral">
+    <a class="menu" href="index.html">Início</a>
+    <h3>|</h3>
+    <a class="menu" href="calculadora.html">Calculadora</a>
+    <h3>|</h3>
+    <a class="menu" href="contatos.html">Contatos</a>
+    <h3>|</h3>
+    <a class="menu" href="Sobre.html">Sobre</a>
+  </div>
+  <script>
+    const caminhoArquivo = 'paiva.json';
+
+    async function lerArquivoJSON(caminho) {
+      try {
+        const resposta = await fetch(caminho);
+        const dados = await resposta.json();
+        return dados;
+      } catch (erro) {
+        console.error('Erro ao ler o arquivo JSON:', erro);
+        return null;
+      }
+    }
+
+    async function iniciar() {
+      const questoes = await lerArquivoJSON(caminhoArquivo);
+
+      if (questoes) {
+        // Exibir cada questão
+        for (let i = 1; i <= 3; i++) {
+          exibirQuestao(questoes[`quests${i}`], i);
+        }
+      } else {
+        console.log('Erro ao acessar as questões.');
+      }
+    }
+
+    function exibirQuestao(questao, numeroQuestao) {
+      const container = document.getElementById('questao-container');
+
+      // Cria um container específico para cada questão
+      const questaoContainer = document.createElement('div');
+      questaoContainer.id = `questao-${numeroQuestao}`;
+
+      const tipoElemento = document.createElement('p');
+      tipoElemento.textContent = `Questão: ${questao.type}`;
+
+      const textoElemento = document.createElement('p');
+      textoElemento.textContent = `Texto: ${questao.texts[0]}`;
+
+      const opcoesElemento = document.createElement('p');
+      opcoesElemento.textContent = `Opções: ${JSON.stringify(questao.choices)}`;
+
+      const corretaElemento = document.createElement('p');
+      corretaElemento.textContent = `Resposta correta: ${JSON.stringify(questao.correct)}`;
+      corretaElemento.style.display = 'none'; // Inicia oculto
+
+      // Botões para revelar e esconder a resposta
+      const btnRevelar = document.createElement('button');
+      btnRevelar.textContent = 'Revelar Resposta';
+      btnRevelar.classList.add('btn-acao', 'btn-revelar');
+
+      const btnEsconder = document.createElement('button');
+      btnEsconder.textContent = 'Esconder Resposta';
+      btnEsconder.classList.add('btn-acao', 'btn-esconder');
+      btnEsconder.style.display = 'none'; // Inicia oculto
+
+      // Adiciona ouvintes de evento para revelar e esconder a resposta
+      btnRevelar.addEventListener('click', () => {
+        corretaElemento.style.display = 'block';
+        btnRevelar.style.display = 'none';
+        btnEsconder.style.display = 'block';
+      });
+
+      btnEsconder.addEventListener('click', () => {
+        corretaElemento.style.display = 'none';
+        btnRevelar.style.display = 'block';
+        btnEsconder.style.display = 'none';
+      });
+
+      // Adiciona os elementos ao container da questão
+      questaoContainer.appendChild(tipoElemento);
+      questaoContainer.appendChild(textoElemento);
+      questaoContainer.appendChild(opcoesElemento);
+      questaoContainer.appendChild(corretaElemento);
+      questaoContainer.appendChild(btnRevelar);
+      questaoContainer.appendChild(btnEsconder);
+
+      // Adiciona o container da questão ao container principal
+      container.appendChild(questaoContainer);
+    }
+
+    iniciar();
+  </script>
+  <div id="questao-container" style="padding-left: 100px; text-align: justify; padding-right: 100px;"></div>
+</body>
+</html>

@@ -1,0 +1,160 @@
+
+{
+    "quests": [
+    {
+    "type" : "numeros",
+    "texts": [
+    "(Enem 2012) João decidiu contratar os serviços de uma empresa por telefone através do SAC (Serviço de Atendimento ao Consumidor). O atendente ditou para João o número de protocolo de atendimento da ligação e pediu que ele anotasse. Entretanto, João não entendeu um dos algarismos ditados pelo atendente e anotou o número 13. 98207, sendo que o espaço vazio é o do algarismo que João não entendeu.",
+    "De acordo com essas informações, a posição ocupada pelo algarismo que falta no número de protocolo é a de:"
+    ],
+    "choices": [
+    "centena",
+    "dezena de milhar",
+    "centena de milhar",
+    "milhão",
+    "centena de milhão"
+    ],
+    "correct": 3
+},
+{
+"type" : "numeros",
+"texts": [
+    "Realizando a decomposição de um número, encontramos a soma 50000 + 300 + 20 + 1.",
+    "O número decomposto foi"
+    ],
+"choices": [
+    53210,
+    53021,
+    50321,
+    500321,
+    50321
+],
+"correct": 3
+},
+{
+"type" : "numeros",
+"texts": [
+"No número 153902, o valor posicional do algarismo 9 é:"
+],
+"choices": [
+9,
+90,
+900,
+9000,
+90000
+],
+"correct": 3
+},
+{
+"type" : "numeros",
+"texts": [
+"(Ipad) Dentre os números 2.501, 4.235, 1.536, 4.057, 30.597 e 41.500, quantos têm o algarismo 5 ocupando a ordem das centenas?"
+
+],
+"choices": [
+1,
+2,
+3,
+4,
+5
+],
+"correct": 4
+},
+
+{
+"type" : "numeros",
+"texts": [
+"Ao multiplicar 68 por 92, qual é o algarismo da unidade do resultado?"
+],
+"choices": [
+6,
+4,
+8,
+2,
+1
+],
+"correct": 1
+},
+{
+"type" : "numeros",
+"texts": [
+"Ao dividir 567 por 9, qual é o quociente?"
+],
+"choices": [
+65,
+64,
+66,
+63,
+67
+],
+"correct": 1
+},
+{
+"type" : "numeros",
+"texts": [
+"O que é um fluxograma e para que serve? Escolha a alternativa correta."
+],
+"choices": [
+"Um fluxograma é um diagrama que mostra as etapas de um processo ou algoritmo usando símbolos gráficos e setas.",
+"Um fluxograma é um gráfico que mostra a variação de uma grandeza em função do tempo ou de outra variável.",
+"Um fluxograma é um mapa que mostra a localização de um lugar ou região usando coordenadas geográficas e escalas.",
+"Um fluxograma é um desenho que mostra a forma e a cor de um objeto ou figura usando linhas e sombras.",
+"Nenhuma das anteriores"
+],
+"correct": 1
+},
+
+{
+"type" : "numeros",
+"texts": [
+"Observe o fluxograma abaixo e responda: ",
+"qual será o valor final da variável x após a execução do algoritmo?",
+"| x = 10 |",
+"| y = 5 |",
+"| x = x + y |",
+"| y = y * 2 |",
+"| x = x - y |"
+],
+"choices": [
+"x = 0",
+"x = 5",
+"x = 10",
+"x = 15",
+"Nenhuma das anteriores"
+],
+"correct": 2
+},
+{
+"type" : "numeros",
+"texts": [
+"Qual é o símbolo usado no fluxograma para representar uma decisão ou condição?",
+"Escolha a alternativa correta."
+],
+"choices": [
+"Um retângulo",
+"Um triângulo",
+"Um losango",
+"um círculo",
+"Nenhuma das anteriores"
+],
+"correct": 3
+},
+
+
+
+    {
+    "type" : "numeros",
+    "texts": [
+    "O que representa um retângulo em um fluxograma?"
+    ],
+    "choices": [
+    "Decisão",
+    "Processo",
+    "Início/Fim",
+    "Conector",
+    "Nenhuma das anteriores"
+    ],
+    "correct": 2
+    }
+    ]
+}

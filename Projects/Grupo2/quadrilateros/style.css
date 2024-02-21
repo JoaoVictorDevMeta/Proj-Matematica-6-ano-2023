@@ -1,0 +1,440 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    max-width: 100%;
+    height: 800vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 80%;
+    height: 700vh;
+    display: flex;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); */
+    background-color: #ffffff;
+    align-content: center;
+    justify-content: center;
+}
+
+.container .um {
+    margin-top: -250px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .quatro {
+    margin-top: 1075px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .seis {
+    margin-top: 1485px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .nove {
+    margin-top: 2050px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .doze {
+    margin-top: 2775px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .quatorze {
+    margin-top: 3360px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .dezesete {
+    margin-top: 4195px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .video-aula {
+    margin-top: 4780px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container p {
+    max-width: 60%;
+    font-size: 16px;
+    position: absolute;
+    text-align:  justify;
+}
+
+.container .first {
+    margin-top: -220px;
+    width: 60%;
+}
+
+.container .second {
+    margin-top: 205px;
+    width: 60%;
+}
+
+.container .third {
+    margin-top: 600px;
+    width: 60%;
+}
+
+.container .fourth {
+    margin-top: 1105px;
+    width: 60%;
+}
+
+.container .fifth {
+    margin-top: 1410px;
+    width: 60%;
+}
+
+.container .sixth {
+    margin-top: 1515px;
+    width: 60%;
+}
+
+.container .seventh {
+    margin-top: 1740px;
+    width: 60%;
+}
+
+.container .eighth {
+    margin-top: 1905px;
+    width: 60%;
+}
+
+.container .ninth {
+    margin-top: 2080px;
+    width: 60%;
+}
+
+.container .tenth {
+    margin-top: 2305px;
+    width: 60%;
+}
+
+.container .eleventh {
+    margin-top: 2625px;
+    width: 60%;
+}
+
+.container .twelfth {
+    margin-top: 2805px;
+    width: 60%;
+}
+
+.container .thirteenth {
+    margin-top: 3075px;
+    width: 60%;
+}
+
+.container .fourteenth {
+    margin-top: 3390px;
+    width: 60%;
+}
+
+.container .fifteenth {
+    margin-top: 3675px;
+    width: 60%;
+}
+
+.container .sixteenth {
+    margin-top: 3985px;
+    width: 60%;
+}
+
+.container .seventeenth {
+    margin-top: 4225px;
+    width: 60%;
+}
+
+.container .eighteenth {
+    margin-top: 4650px;
+    width: 60%;
+}
+
+.container .referencias {
+    margin-top: 5780px;
+    width: 60%;
+    color: #fff;
+    background: #3d8160;
+    border: 5px solid #3d8160;
+}
+
+.header {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    background-color: #3d8160;
+    box-shadow: 1px 1px 10px #000000;
+    top: 0px;
+    margin-top: 20px;
+    justify-content: center;
+    z-index: 2;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 23px 30px 23px 30px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.5s ease-in-out;
+    font-family: "Imprima", "Inter", sans-serif;
+}
+
+.menu li a:hover {
+    color: #343134;
+}
+
+.menu .atual {
+    color: #343134;
+}
+
+.menu .atual:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 1330px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 65px;
+    }
+    .menu li {
+        margin: 23px 10px 21px 10px;
+    }
+    .menu li a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 55px;
+    }
+    .menu li {
+        margin: 18px 15px 16px 15px;
+    }
+    .menu li a {
+        font-size: 16px;
+    }
+    .container h3 {
+        margin-top: -460px;
+        font-size: 16px;
+        position: absolute;
+        font-family: "Imprima", "Inter", sans-serif;
+    }
+    .container p {
+        max-width: 80%;
+        margin-top: -430px;
+        font-size: 13px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 45px;
+    }
+    .menu li {
+        margin: 15px 10px 13px 10px;
+    }
+    .menu li a {
+        font-size: 13px;
+    }
+}
+
+.quadrilateros img {
+    width: 25rem;
+    margin: -120px 550% 0px 550%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 1;
+}
+
+.elementos-de-um-quadrilatero img {
+    width: 25rem;
+    margin: 420px 450% 0px 450%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.tipos-de-quadrilateros img {
+    width: 25rem;
+    margin: 870px 350% 0px 350%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.paralelogramo img {
+    width: 25rem;
+    margin: 1240px 250% 0px 250%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 1;
+}
+
+.retangulo img {
+    width: 25rem;
+    margin: 1595px 150% 0px 150%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.retangulo-diagonais img {
+    width: 25rem;
+    margin: 1965px 50% 0px 50%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.quadrado img {
+    width: 25rem;
+    margin: 2140px -50% 0px -50%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.quadrado-diagonais img {
+    width: 20rem;
+    margin: 2385px -175% 0px -175%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.losango img {
+    width: 25rem;
+    margin: 2865px -230% 0px -230%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.trapezio img {
+    width: 25rem;
+    margin: 3450px -330% 0px -330%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.tipos-de-trapezios img {
+    width: 25rem;
+    margin: 3795px -430% 0px -430%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.quadrilatero-convexo img {
+    width: 30rem;
+    margin: 4325px -450% 0px -450%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.video1 {
+    width: 50rem;
+    margin: 4820px -375% 0px -375%;
+    position: absolute;
+}
+
+.video2 {
+    width: 50rem;
+    margin: 5290px -375% 0px -375%;
+    position: absolute;
+}
+
+.profile-luanna img {
+    width: 15rem;
+    margin: 5765px -340% 0px -340%;
+    /* position: relative; */
+    z-index: 0;
+}
+
+.profile-ellen img {
+    width: 15rem;
+    margin: 5765px -330% 0px -330%;
+    /* position: relative; */
+    z-index: 0;
+}
+
+.formulas {
+    border: 10px solid #98d8aa;
+    background-color: #98d8aa;
+}

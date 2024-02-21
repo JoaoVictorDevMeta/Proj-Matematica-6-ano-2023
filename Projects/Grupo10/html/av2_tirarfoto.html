@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skin Scanner - Captura de foto</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 130vh;
+      margin: 0;
+      flex-direction: column;
+    }
+
+    #container {
+      position: relative;
+    }
+
+    video,
+    canvas {
+      object-fit: cover;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+    }
+
+    canvas {
+      display: none;
+    }
+
+    button {
+      margin-top: 300px;
+      cursor: pointer;
+    }
+
+    #fazerOutroUpload {
+      margin-top: 300px;
+      margin-right: 30px;
+    }
+
+    #submeter {
+      margin-top: 300px;
+      margin-left: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container" style="transform: scaleX(-1);">
+    <video id="video" playsinline autoplay></video>
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <button id="capturarFoto" onclick="capturarFoto()">Capturar Foto</button>
+  <div style="flex-direction: row;">
+  <button id="capturarOutraFoto" style="display: none;" onclick="capturarOutraFoto()">Capturar outra foto</button>
+  <button id="submeter" style="display: none;" onclick="submeter()">Submeter</button>
+  </div>
+
+  <script>
+    navigator.mediaDevices.getUserMedia({video: true})
+      .then(function (stream) {
+        var video = document.getElementById('video');
+        video.srcObject = stream;
+      })
+      .catch(function (error) {
+        console.error('Erro ao acessar a câmera: ', error);
+      });
+
+    function capturarFoto() {
+      var video = document.getElementById('video');
+      var canvas = document.getElementById('canvas');
+      var context = canvas.getContext('2d');
+
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+
+      context.drawImage(video, 0, 0, canvas.width, canvas.height);
+
+      canvas.style.display = 'block';
+      video.style.display = 'none';
+
+      document.getElementById('capturarFoto').style.display = 'none';
+      document.getElementById('capturarOutraFoto').style.display = 'inline-block';
+      document.getElementById('submeter').style.display = 'inline-block';
+    }
+
+    function capturarOutraFoto() {
+      var canvas = document.getElementById('canvas');
+      var video = document.getElementById('video');
+
+      canvas.style.display = 'none';
+      video.style.display = 'block';
+
+      document.getElementById('capturarFoto').style.display = 'inline-block';
+      document.getElementById('capturarOutraFoto').style.display = 'none';
+      document.getElementById('submeter').style.display = 'none';
+    }
+
+    function submeter() {
+      window.location.href = "../index.html#section_2";
+    }
+  </script>
+</body>
+
+</html>

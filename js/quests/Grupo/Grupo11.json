@@ -1,0 +1,162 @@
+	
+{
+"quests": [
+    {
+            "type" : "geometria",
+            "texts": [
+                "Julgue as afirmativas a seguir:",
+                "I - O cilindro é um prisma de base circular.",
+            "II - O cubo é um Sólido de Platão.",
+            "III - O espaço geométrico bidimensional é um plano .",
+            "Marque a alternativa correta."],
+            "choices": [
+                "Somente a afirmativa I e II é verdadeira.",
+                "Somente a afirmativa II é verdadeira.",
+                "Somente a afirmativa I é verdadeira.",
+                "Somente as afirmativas II e III são verdadeiras.",
+                "Todas as afirmativas são veradeiras."
+            ],
+            "correct": 4
+    },
+    {
+            "type" : "geometria",
+            "imagem" : "https://drive.google.com/uc?export=view&id=1-fu-sAblhyQEZbib-zYhbkCnY-6IMnXC",
+            "texts": [
+                "(Enem-2012) Maria quer inovar sua loja de embalagens e decidiu vender caixas com diferentes formatos. Nas imagens apresentadas estão as planificações dessas caixas.",
+                "Quais serão os sólidos geométricos que Maria obterá a partir dessas planificações?"
+            ],
+                
+            "choices": [
+                "Cilindro, prisma de base pentagonal e pirâmide",
+                "Cone, prisma de base pentagonal e pirâmide",
+                "Cone, tronco de pirâmide e prisma",
+                "Cilindro, Tronco de pirâmide e prisma",
+                "Cilindro, prisma e tronco de cone"
+            ],
+            "correct": 1
+    },
+    {
+            "type" : "geometria",
+            "texts": [
+                "O número de faces, arestas e vértices, respectivamente, de uma pirâmide de base pentagonal é:"],
+    
+            "choices": [
+                "5, 10 e 6",
+                "6, 11 e 6",
+                "6, 10 e 6",
+                "5, 10 e 5",
+                "6, 11 e 5"
+            ],
+            "correct":3
+    },
+    {
+            "type" : "geometria",
+            "texts": [
+                "O número de faces, arestas e vértices, respectivamente, de um hexaedro é:"],
+    
+            "choices": [
+                "6,8,6",
+                "4,8,6",
+                "6,10,8",
+                "5,10,6",
+                "6,12,8"
+            ],
+            "correct": 5
+    },
+    {   
+            "type" : "geometria",
+            "imagem" : "https://drive.google.com/uc?export=view&id=1I72sNX-k5WIbCnK5x_imahsVg6XKoTM6",
+            "texts": [
+                "Observe a figura acima que representa um quadrados A com uma medida de 6 cm em cada lado e um quadrado B com proporções e ângulos iguais, neste caso quantos cm seria o tamanho dos lados do quadrado B se ele é 2.5 vezes maior que o A?"
+     ],
+    
+            "choices": [
+                12,
+                15,
+                10,
+                9,
+                18
+            ],
+            "correct": 2
+    },
+    {
+            "type" : "geometria",
+            "imagem": "https://drive.google.com/uc?export=view&id=1bUo1LAt75aVRFxJZMnzC4rVXEw5fwOyO",
+            "texts": [
+                "Observe a figura acima que representa um quadrado. Sobre ele foi aplicado uma malha quadriculada com quadradinhos de 1.5 cm de lado. Se desejarmos reduzir o quadrado pela metade quantos cm o seu lado vai medir?"
+
+    ],
+    
+            "choices": [
+                4.5,
+                12,
+                6,
+                9,
+                7.5
+            ],
+            "correct": 3
+    },
+    {
+            "type" : "geometria",
+            "texts": [
+                "Escolha a alternativa que apresenta apenas sólidos de platão:"
+    ],
+    
+            "choices": [
+                "Cubo, pirâmide quadrada, paralelepípedo",
+                "hexagono,tetraedro,octaedro",
+                "Octaedro,pirâmide pentagonal,cubo",
+                "icosaedro,pirâmide triangular e cubo",
+                "Dodecaedro,hexaedro,pentaedro"
+            ],
+            "correct":4
+    },
+    {
+            "type" : "geometria",
+            "imagem" : "https://drive.google.com/uc?export=view&id=1ZDdpfHtEglBdw8VAsl45yyM61xHqtRy2",
+            "texts": [
+                "Analise os sólidos geométricos abcima e marque a sequência que indica, nesta ordem, se são poliedros ou corpos redondos."
+    ],
+    
+            "choices": [
+                "poliedro,poliedro,poliedro",
+                "corpo redondo,poliedro,corpo redondo",
+                "corpo redondo, corpo redondo, poliedro",
+                "poliedro,poliedro,corpo redondo",
+                "poliedro,corpo redondo,poliedro"
+            ],
+            "correct": 5
+    },
+    {
+            "type" : "geometria",
+            "texts": [
+                "Duas retas que se cruzam são consideradas perpendiculares apenas quando:"
+    ],
+    
+            "choices": [
+                "não poussem nenhum ponto em comum",
+                "possuem mais de um ponto em comum",
+                "formam um ângulo reto entre elas",
+                "possuem infinitos pontos em comum",
+                "Formam um ângulo de 180º entre elas"
+            ],
+            "correct": 3
+    },
+    {
+            "type" : "geometria",
+            "texts": [
+                "Considerando duas retas que pertencem ao mesmo plano, podemos afirmar que são paralelas apenas quando:"
+     ],
+    
+            "choices": [
+                "Possuem somente um ponto em comum",
+                "Possuem exatamente dois pontos em comum",
+                "Possuem infinitos pontos em comum",
+                "Se cruzam",
+                "Não possuem nenhum ponto em comum"
+            ],
+            "correct":5
+    }
+    ]
+    }
+    

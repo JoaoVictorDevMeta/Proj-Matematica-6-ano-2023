@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skin Scanner - Cadastro</title>
+
+  <!-- CSS FILES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link href="../css/av2_bootstrap.min.css" rel="stylesheet">
+
+  <link href="../css/av1_2_tooplate-waso-strategy.css" rel="stylesheet">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
+    
+    body {
+      font-family: Helvética;
+      background-color: #6f42c1;
+    }
+
+    h2 {
+      color: #4B0082;
+    }
+
+    form {
+      max-width: 300px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 1px;
+      color: #333;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      /* Adicionando bordas arredondadas às caixas de input */
+    }
+
+    input[type="submit"] {
+      background-color: #A020F0;
+      color: white;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #4B0082;
+    }
+    
+    .div-maior {
+        display: flex;
+        height: 100%;
+    }
+
+    .div-menor {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0px solid #ccc;
+    }
+
+    .div-menor-esquerda {
+        order: -1;
+    }
+
+    .div-menor-direita {
+        order: 1;
+        background-image:url('../images/mulher1.jpg');
+        background-size: 110% 110%;
+        background-position: center;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-white shadow-lg"">
+    <div class="container">
+
+      <img src="../images/Skin.jpg" style="height: 4%; width: 4%;">
+      <a href="#" class="navbar-brand" style="margin-left: 20px;">Skin <span class="text-purple">Scanner</span></a> 
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#section_1">
+              <small class="small-title"><strong class="text-purple">01</strong></small> INÍCIO
+            </a>
+          </li>
+
+          <!--Novo-->
+          <li class="nav-item">
+            <a class="nav-link" href="av1_login.html">
+              <small class="small-title"><strong class="text-purple">02</strong></small> LOGIN
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="av1_faq.html">
+              <small class="small-title"><strong class="text-purple">03</strong></small> FAQ
+            </a>
+          </li>
+
+          </li>
+        </ul>
+        </div>
+        </div>
+  </nav>
+  
+  <div class="div-maior">
+
+    <div class="div-menor div-menor-esquerda">
+      <div style="color: white; margin-top:-60px">
+      <h1>Crie sua conta e você poderá:</h1><br>
+      <h5>• Analisar seu rosto através do nosso scanner facial;</h5>
+      <h5>• Obter recomendações de produtos para o cuidado do seu rosto;</h5>
+      <h5>• Receber ajuda por meio dos nossos atendendentes;</h5>
+      <h5>• Enviar feedbacks relatando suas experiências em Skin Scanner.</h5>
+      </div>
+    </div>
+  
+    <div class="div-menor div-menor-direita" style="margin-top:-60px">
+    <form method="post" onsubmit="return cadastroRedirecionar()">
+      <h2 style="text-align:center">CADASTRE-SE</h2> <br>
+      
+      <label for="username"></label>
+      <input type="text" id="username" placeholder="Nome" onfocus="limparTexto(this)" onblur="restaurarTexto(this)" required>
+      <br>
+  
+      <label for="email"></label>
+      <input type="email" id="email" placeholder="Email" onfocus="limparTexto(this)" onblur="restaurarTexto(this)" required>
+      <br>
+  
+      <label for="password"></label>
+      <input type="password" id="password" placeholder="Senha" onfocus="limparTexto(this)" onblur="restaurarTexto(this)" required>
+      <br> <br>
+  
+      <input type="submit" value="Cadastrar">
+      <h6 style="text-align:center; font-size: 12px;">Já possui conta? Faça <a href="../html/av1_login.html">login</a>.</h6>
+    </form>
+    </div>
+  </div>
+    
+  <script>
+    function limparTexto(elemento) {
+        if (elemento.value === elemento.defaultValue) {
+            elemento.value = '';
+        }
+    }
+
+    function restaurarTexto(elemento) {
+        if (elemento.value === '') {
+            elemento.value = elemento.defaultValue;
+        }
+    }
+    
+    function cadastroRedirecionar() {
+      window.location.href = "../index.html";
+      return false;
+    }
+  </script>
+
+</body>
+
+</html>

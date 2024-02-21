@@ -1,0 +1,159 @@
+{
+    "quests": [
+        {
+            "type": "Operações",
+            "texts": [
+                "João foi ao supermercado e comprou R$ 115,15 em mercadorias. Quando retornou à casa, ele viu que seu filho também havia ido ao mercado e comprado os mesmos produtos. Quanto os dois gastaram juntos?"
+            ],
+            "choices":[
+                "R$ 230,30",
+                "R$ 230",
+                "R$ 200,30",
+                "R$ 220,20",
+                "R$ 220,30"
+            ],
+            "correct": 1
+        },
+
+        {
+            "type": "Operações",
+            "texts": [
+                "Uma fábrica de sapatos possui 5235 pares de calçados em estoque e recebe um pedido, de um único cliente, de 4989 pares de calçados. Quantas unidades de calçados sobraram em estoque após a entrega desse pedido?"
+            ],
+            "choices":[
+                "246 calçados",
+                "492 calçados",
+                "500 calçados",
+                "546 calçados",
+                "692 calçados"
+            ],
+            "correct": 1
+        },
+
+        {
+            "type": "Operações",
+            "texts": [
+                "Um prestador de serviço, após a realização do trabalho para o qual foi contratado, recebeu o pagamento em 4 notas de R$ 50,00, 2 notas de R$ 20,00 e 3 notas de R$ 2,00. Então, o valor total recebido pelo serviço prestado foi igual a:"
+            ],
+            "choices":[
+                "R$ 198,00",
+                "R$ 206,00",
+                "R$ 230,00",
+                "R$ 246,00",
+                "R$ 316,00"
+            ],
+            "correct": 4
+        },
+
+        {
+            "type": "Operações",
+            "texts": [
+                "Um grupo de 18 amigos se dividiu em times para praticar de um jogo conhecido como caça ao tesouro. Se cada grupo tinha 3 membros, então foram montados um total de:"
+            ],
+            "choices":[
+                "3 grupos",
+                "4 grupos",
+                "6 grupos",
+                "9 grupos",
+                "18 grupos"
+            ],
+            "correct": 3
+        },
+
+        
+        {
+            "type": "Operações",
+            "texts": [
+                "Uma confecção que produz biquínis, teve uma produção de 12 567 peças no mês de janeiro. No mês de fevereiro, como a procura foi ainda maior, foram produzidas 2 342 peças a mais que em janeiro. Quantas peças foram produzidas ao final dos dois meses?"
+            ],
+            "choices":[
+                "14 909",
+                "16 753",
+                "9 754",
+                "27 476",
+                "25 897"
+            ],
+            "correct": 4
+        },
+
+        {
+            "type": "Porcentagem",
+            "texts": [
+                "25 representa quantos por cento de 200?"
+            ],
+            "choices":[
+                "12,5%",
+                "15,5%",
+                "25%",
+                "20%",
+                "10%"
+            ],
+            "correct": 1
+        },
+
+        {
+            "type": "Porcentagem",
+            "texts": [
+                "Em uma sala de aula há 30 alunos, dos quais 40% são meninas. Quantas meninas têm na sala?"
+            ],
+            "choices":[
+                "10 meninas",
+                "12 meninas",
+                "15 meninas",
+                "18 meninas",
+                "20 meninas"
+            ],
+            "correct": 2
+        },
+
+        {
+            "type": "Porcentagem",
+            "texts": [
+                "Convertendo a fração ⅖ em fração centesimal, qual o resultado em porcentagem?"
+            ],
+            "choices":[
+                "10%",
+                "20%",
+                "30%",
+                "40%",
+                "50%"
+            ],
+            "correct": 4
+        },
+
+        {
+            "type": "Porcentagem",
+            "texts": [
+                "Julia acertou 75% das questões de matemática do teste e Mariana acertou ⅘. Quem acertou mais questões?"
+            ],
+            "choices":[
+                "Júlia",
+                "Mariana",
+                "Elas acertaram a mesma quantidade",
+                "Júlia acertou metade das questões de Mariana",
+                "Mariana acertou metade das questões de Júlia"
+            ],
+            "correct": 2
+        },
+
+        {
+            "type": "Igualdade",
+            "texts": [
+                "Calcule o valor do espaço em branco para as igualdades a seguir e marque a alternativa com os respectivos números corretos",
+                "16 + ____ = 10 + 6",
+                "22 + 8 = ____ + 6",
+                "30 - 2 = ____ + 6",
+                "23 + 2 = 30 - ____",
+                "16 - 2 = 12 + ____"
+            ],
+            "choices":[
+                "10, 22, 20, 5, 2",
+                "0, 20, 22, 6, 1",
+                "0, 24, 22, 5, 2",
+                "1, 10, 25, 2, 0",
+                "2, 11,20, 5, 2"
+            ],
+            "correct": 3
+        }
+    ]
+}

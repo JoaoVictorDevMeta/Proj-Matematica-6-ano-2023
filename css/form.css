@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.2s;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+:root{
+    --theme: #97EBB9;
+    --theme-shadow: #3D8160;
+    --theme-soft: #A8EDEA;
+    --complementar: #98D8AA;
+    --contrast: #FF6D60;
+    --dark: #343134;
+    --inter: 'Inter', sans-serif;
+    --imprima: 'Imprima', sans-serif;
+    --red-hat: 'Red Hat Display', sans-serif;
+}
+
+@keyframes slideInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(10%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.nex{
+    padding: 15px 70px;
+    background-color: var(--theme-shadow);
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: var(--red-hat);
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.nex:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 5px;
+}
+
+
+/* MAIN PAGE CODE*/
+main{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square1{
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    width: 40%;
+    height: 40vh;
+    background: var(--contrast);
+}
+.square2{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    width: 60%;
+    height: 40vh;
+    background: var(--theme);
+}
+
+
+.all{
+    position: absolute;
+    width: 70%;
+    height: 78%;
+    background-color: white;
+    overflow: hidden;
+}
+.all > .sections{
+    transition: 0.7s ease;
+    height: 100%;
+    display: flex;
+    width: 500%;
+}
+.all > .sections > section{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+}
+
+.login{
+    position: relative;
+    z-index: 2;
+}
+.login > .imagem{
+    width: 50%;
+    background: linear-gradient(180deg, rgba(61, 129, 96, 0.30) 0%, rgba(88, 175, 102, 0.40) 51.56%, rgba(255, 255, 255, 0.30) 100%);
+}
+.login > .imagem > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.login > form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 20px 100px;
+    background-color: white;
+}
+.login > form > h1{
+    font-family: var(--red-hat);
+    color: #3D8160;
+    font-size: 6vh;
+    text-transform: uppercase;
+    border-bottom: 5px solid var(--complementar);
+}
+.login > form > h1 > span{
+    display: block;
+    font-size: 4vh;
+    color: black;
+}
+.login > form input{
+    width: 100%;
+    font-size: 2vh;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 1px solid;
+    margin-top: 10px;
+}
+.login > form input:hover, input:focus{
+    box-shadow: 0px 0px 5px var(--theme-shadow);
+}
+.login > form label{
+    font-size: 24px;
+    font-family: var(--red-hat);
+    font-weight: 200;
+}
+
+
+.page{
+    flex-direction: column;
+    padding: 30px;
+}
+.page > form{
+    height: 100%;
+    display: flex;
+}
+.page > .prev{
+    padding: 10px 15px;
+    font-size: 18px;
+    position: absolute;
+    background: none;
+    border: none;
+    font-weight: 500;
+    font-family: var(--inter);
+    cursor: pointer;
+    border-bottom: 4px solid white;
+}
+.page > .prev:hover{
+    border-bottom: 4px solid var(--contrast);
+}
+.page > h1{
+    font-size: 36px;
+    font-family: var(--red-hat);
+    text-align: center;
+}
+
+
+.quest{
+    width: 50%;
+    padding: 30px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.quest h2{
+    font-size: 32px;
+    font-family: var(--imprima);
+}
+.quest p{
+    font-size: 20px;
+    font-family: var(--red-hat);
+    text-align: justify;
+    padding: 10px 0px 5px;
+}
+.quest img{
+    width: 100%;
+}
+.quest .alternatives{
+    padding-top: 20px;
+}
+.quest label{
+    font-size: 2vh;
+    font-family: var(--inter);
+}
+input[type="radio"]{
+    transform: scale(1.7);
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.result{
+    font-family: var(--red-hat);
+    display: flex;
+    position: relative;
+}
+.result > .text{
+    background-color: var(--theme-soft);
+    width: 35%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result > .text > h1{
+    font-size: 7vh;
+    
+}
+.result #user{
+    padding: 30px;
+    text-align: center;
+}
+.result #user > h3{
+    color: var(--theme-shadow);
+} 
+.result #points{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+.result #points > h4{
+    font-size: 36px;
+    background-color: white;
+    padding: 5px;
+}
+.result > .background{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.result > .background > img{
+    width: 100%;
+}
+.result > a{
+    position: absolute;
+    bottom: 25px;
+    font-size: 28px;
+    right: 100px;
+}
+.result > a:hover{
+    color: var(--theme);
+}
+.result #view-wrong{
+    height: 50px;
+    padding: 0px 50px;
+    border-radius: 100px;
+    border: 2px solid;
+    background: none;
+    font-size: 16px;
+    font-family: var(--inter);
+    position: absolute;
+    bottom: 50px;
+    cursor: pointer;
+}
+.result #view-wrong:hover{
+    background: var(--contrast) !important;
+    color: white;
+}
+.result #close-wrong{
+    position: absolute;
+    top: 0;
+    margin: 20px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: var(--contrast);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.result #close-wrong:hover{
+    opacity: 0.7;
+    text-decoration: none !important;
+}
+
+
+.wrong{
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0px 0px 20px gray;
+    height: 78vh;
+    width: 80vh;
+    background: white;
+    left: 25%;
+    transition: 0.7s;
+    transform: translateY(105%);
+}
+.wrong > h1{
+    font-size: 48px;
+    text-align: center;
+    padding: 30px;
+}
+.wrong > div{
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.wrong > div > .quest{
+    height: auto;
+    width: 100%;
+    padding: 100px 50px;
+    border-top: 2px solid;
+}
+.wrong > div > .quest > h2{
+    color: var(--contrast);
+}
+.wrong-answer{
+    background-color: #ff000080;
+}
+
+
+.logo{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.logo > img{
+    width: 100%;
+}

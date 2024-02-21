@@ -1,0 +1,158 @@
+{
+    "quests": [
+        {
+        "type" : "frações",
+        "texts" : [
+            "Em uma biblioteca, 2/3 dos livros são de ficção. Se essa fração representa 240 livros, quantos livros são de ficção, sem calcular com uma calculadora?"
+        ],
+        "choices": [
+            "120 livros",
+            "160 livros",
+            "180 livros",
+            "200 livros",
+            "220 livros"
+        ],
+        "correct": 2
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Um tanque de água está cheio até 4/5 de sua capacidade. Se isso equivale a 320 litros, qual é a capacidade total do tanque, sem usar uma calculadora?"
+        ],
+        "choices": [
+            "350 litros",
+            "380 litros",
+            "400 litros",
+            "420 litros",
+            "450 litros"
+        ],
+        "correct": 3
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Um jardineiro divide seu canteiro em três partes iguais. Se ele planta flores em 2/3 do canteiro, quantas partes do canteiro são cobertas com flores, sem calcular com uma calculadora?"
+        ],
+        "choices": [
+            "1 parte",
+            "1.5 partes",
+            "2 partes",
+            "2.5 partes",
+            "3 partes"
+        ],
+        "correct": 3
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Uma pizza foi dividida em 1/4 de pepperoni, 1/3 de margherita e o restante de vegetariana. Qual fração da pizza é vegetariana, e quanto representa isso em termos de partes da pizza, sem usar uma calculadora?"
+        ],
+        "choices": [
+            "1/6 da pizza",
+            "1/8 da pizza",
+            "1/10 da pizza",
+            "1/12 da pizza",
+            "1/15 da pizza"
+        ],
+        "correct": 1
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Um estudante divide seu tempo de estudo entre três matérias: 2/5 para matemática, 1/4 para ciências e o restante para história. Qual fração do tempo é dedicada à história, e quanto isso representa em porcentagem, sem calcular com uma calculadora?"
+        ],
+        "choices": [
+            "1/10 do tempo",
+            "1/8 do tempo",
+            "1/5 do tempo",
+            "1/6 do tempo",
+            "1/4 do tempo"
+        ],
+        "correct": 4
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "João tinha 3/5 de um bolo e Maria tinha 1/4 do mesmo bolo. Se decidirem juntar suas partes, qual fração do bolo eles terão juntos?"
+        ],
+        "choices": [
+            "7/20 do bolo",
+            "3/10 do bolo",
+            "2/5 do bolo",
+            "1/3 do bolo",
+            "17/20 do bolo"
+        ],
+        "correct": 5
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Uma receita de bolo pede 2/3 de xícara de açúcar. Se você já colocou 1/4 de xícara, quanto mais de açúcar precisa adicionar para seguir a receita corretamente?"
+        ],
+        "choices": [
+            "1/6 de xícara",
+            "1/3 de xícara",
+            "1/2 de xícara",
+            "2/3 de xícara",
+            "3/4 de xícara"
+        ],
+        "correct": 2
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Em uma competição, um nadador percorreu 5/8 da distância total na primeira volta. Se ele nadar mais 3/8 da distância na segunda volta, que fração da distância total ele terá nadado?"
+        ],
+        "choices": [
+            "1/8 da distância",
+            "1/4 da distância",
+            "1/2 da distância",
+            "5/8 da distância",
+            "7/8 da distância"
+        ],
+        "correct": 5
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Maria comprou 2/5 de um metro de tecido. Ela usou 1/10 desse tecido para fazer um lenço. Qual fração do metro de tecido sobrou?"
+        ],
+        "choices": [
+            "1/2 do tecido",
+            "1/3 do tecido",
+            "3/10 do tecido",
+            "1/4 do tecido",
+            "4/5 do tecido"
+        ],
+        "correct": 3
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Uma lanchonete vendeu 2,5 pizzas em um dia. Se cada pizza custa R$15, quanto a lanchonete arrecadou com a venda de pizzas nesse dia?"
+        ],
+        "choices": [
+            "R$25",
+            "R$30",
+            "R$35",
+            "R$40",
+            "R$45"
+        ],
+        "correct": 3
+    },
+    {
+        "type" : "frações",
+        "texts" : [
+            "Se um estudante resolveu 3,75 exercícios a cada dia durante uma semana, quantos exercícios ele resolveu ao todo?"
+        ],
+        "choices": [
+            "23,75 exercícios",
+            "24,75 exercícios",
+            "25,75 exercícios",
+            "26,75 exercícios",
+            "27,75 exercícios"
+        ],
+        "correct": 2
+}
+]
+}

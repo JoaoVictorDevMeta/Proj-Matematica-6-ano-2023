@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    max-width: 100%;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+.container button {
+    width: 100%;
+    height: 50px;
+    margin-top: 2.5rem;
+    margin-right: 20px;
+    border: none;
+    background-color: #98d8aa;
+    padding: 0.62rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 3px solid #3d8160;
+}
+
+.container button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.buttons {
+    margin-left: 155%;
+    display: flex;
+}
+
+.container {
+    max-width: 80%;
+    height: 0vh;
+    display: flex;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); */
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.container .um {
+    margin-top: -230px;
+    font-size: 30px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .dois {
+    margin-top: 115px;
+    font-size: 30px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container p {
+    max-width: 60%;
+    font-size: 20px;
+    position: absolute;
+    text-align:  center;
+}
+
+.container .first {
+    margin-top: -180px;
+    max-width: 60%;
+    border-radius: 15px;
+    background: #ff6d60;
+    border: 3px solid #92423F;
+}
+
+.header {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    background-color: #3d8160;
+    box-shadow: 1px 1px 10px #000000;
+    top: 0px;
+    margin-top: 20px;
+    justify-content: center;
+    z-index: 2;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 23px 30px 23px 30px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.5s ease-in-out;
+    font-family: "Imprima", "Inter", sans-serif;
+}
+
+.menu li a:hover {
+    color: #343134;
+}
+
+.menu .atual {
+    color: #343134;
+}
+
+.menu .atual:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 1330px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 65px;
+    }
+    .menu li {
+        margin: 23px 10px 21px 10px;
+    }
+    .menu li a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 55px;
+    }
+    .menu li {
+        margin: 18px 15px 16px 15px;
+    }
+    .menu li a {
+        font-size: 16px;
+    }
+    .container h3 {
+        margin-top: -460px;
+        font-size: 16px;
+        position: absolute;
+        font-family: "Imprima", "Inter", sans-serif;
+    }
+    .container p {
+        max-width: 80%;
+        margin-top: -430px;
+        font-size: 13px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 45px;
+    }
+    .menu li {
+        margin: 15px 10px 13px 10px;
+    }
+    .menu li a {
+        font-size: 13px;
+    }
+}
+
+.profile-ellen img {
+    width: 30rem;
+    margin: 165px -177% 0px -177%;
+    /* position: relative; */
+    /* border: 3px solid #98d8aa; */
+    z-index: 1;
+}
+
+.profile-joana img {
+    width: 30rem;
+    margin: 345px -277% 0px -277%;
+    /* position: relative; */
+    /* border: 3px solid #98d8aa; */
+    z-index: 0;
+}
+
+.profile-luanna img {
+    width: 30rem;
+    margin: 165px -260% 0px -260%;
+    /* position: relative; */
+    /* border: 3px solid #98d8aa; */
+    z-index: 1;
+}
+
+.profile-vitor img {
+    width: 30rem;
+    margin: 345px -360% 0px -360%;
+    /* position: relative; */
+    /* border: 3px solid #98d8aa; */
+    z-index: 0;
+}

@@ -1,0 +1,127 @@
+
+#menu-h{
+    background-color: rgb(51, 49, 52);
+}
+
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    padding-left: 200px;
+}
+
+
+#menu-h ul li{
+    display: inline;
+}
+
+
+#menu-h ul li a{
+    color: #FFF;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family:'Imprima', sans-serif;
+}
+
+
+#menu-h ul li a:hover {
+    background-color: rgb(149, 235, 186);
+    transition: 1s;
+}
+
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color:#ff6d60 ;
+}
+#menu-h ul li a:hover:last-child {
+    background-color: rgb(144, 249, 242);
+    transition: 1s;
+    color: #000000;
+  
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(72deg, #97ebb9 1%, #3e8160 99%);
+
+}
+
+.caixa{
+  background: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 0.9125rem #444849 
+}
+
+.titulo{
+  font-family:'Imprima', sans-serif;
+}
+
+.texto{
+  font-family: 'Inter', sans-serif;
+  text-align: justify;
+}
+
+#primeiro{
+  padding-top: 20px;
+}
+#titulo1{
+  text-align: center;
+  padding-bottom: 5px;
+}
+#titulo2{
+  padding-top: 20px; 
+}
+
+#segundo{
+  padding-top: 20px;
+}
+
+.angulo{
+  background: #ffffff;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 0.9125rem #444849 
+}
+
+.planta{
+  background: #ffffff;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 0.9125rem #444849 
+}
+
+.perimetro{
+  background: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 0.9125rem #444849 
+}

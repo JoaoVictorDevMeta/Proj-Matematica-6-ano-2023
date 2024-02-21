@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    max-width: 100%;
+    height: 350vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+.container {
+    max-width: 80%;
+    height: 250vh;
+    display: flex;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); */
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.container .um {
+    margin-top: -250px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .tres {
+    margin-top: 230px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container .seis {
+    margin-top: 1085px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+.container .video-aula {
+    margin-top: 1750px;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Imprima", "Inter", sans-serif;
+    width: auto;
+    font-weight: bold;
+}
+
+.container p {
+    max-width: 60%;
+    font-size: 16px;
+    position: absolute;
+    text-align:  justify;
+}
+
+.container .first {
+    margin-top: -220px;
+    width: 60%;
+}
+
+.container .second {
+    margin-top: 195px;
+    width: 60%;
+}
+
+.container .third {
+    margin-top: 260px;
+    width: 60%;
+}
+
+.container .fourth {
+    margin-top: 615px;
+    width: 60%;
+}
+
+.container .fifth {
+    margin-top: 920px;
+    width: 60%;
+}
+
+.container .sixth {
+    margin-top: 1120px;
+    width: 60%;
+}
+
+.container .seventh {
+    margin-top: 1350px;
+    width: 60%;
+}
+
+.container .eighth {
+    margin-top: 1545px;
+    width: 60%;
+}
+
+.container .referencias {
+    margin-top: 2730px;
+    width: 60%;
+    color: #fff;
+    background: #3d8160;
+    border: 5px solid #3d8160;
+}
+
+.header {
+    width: 80%;
+    height: 70px;
+    display: flex;
+    position: fixed;
+    background-color: #3d8160;
+    box-shadow: 1px 1px 10px #000000;
+    top: 0px;
+    margin-top: 20px;
+    justify-content: center;
+    z-index: 2;
+}
+
+.menu {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 23px 30px 23px 30px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.5s ease-in-out;
+    font-family: "Imprima", "Inter", sans-serif;
+}
+
+.menu li a:hover {
+    color: #343134;
+}
+
+.menu .atual {
+    color: #343134;
+}
+
+.menu .atual:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 1330px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 65px;
+    }
+    .menu li {
+        margin: 23px 10px 21px 10px;
+    }
+    .menu li a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1072px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 55px;
+    }
+    .menu li {
+        margin: 18px 15px 16px 15px;
+    }
+    .menu li a {
+        font-size: 16px;
+    }
+    .container h3 {
+        margin-top: -460px;
+        font-size: 16px;
+        position: absolute;
+        font-family: "Imprima", "Inter", sans-serif;
+    }
+    .container p {
+        max-width: 80%;
+        margin-top: -430px;
+        font-size: 13px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .container {
+        width: 80%;
+        height: auto;
+    }
+    .header {
+        width: 80%;
+        height: 45px;
+    }
+    .menu li {
+        margin: 15px 10px 13px 10px;
+    }
+    .menu li a {
+        font-size: 13px;
+    }
+}
+
+.triangulos img {
+    width: 25rem;
+    margin: -85px 205% 0px 205%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 1;
+}
+
+.triangulo-equilatero img {
+    width: 15rem;
+    margin: 380px 125% 0px 125%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.formula-equilatero img {
+    width: 15rem;
+    margin: 425px 200% 0px 200%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.triangulo-isosceles img {
+    width: 8rem;
+    margin: 680px -80% 0px -80%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.triangulo-escaleno img {
+    width: 20rem;
+    margin: 960px -95% 0px -95%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 1;
+}
+
+.triangulo-obtusangulo img {
+    width: 15rem;
+    margin: 1215px -175% 0px -175%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.triangulo-retangulo img {
+    width: 15rem;
+    margin: 1390px -210% 0px -350%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 1;
+}
+
+.triangulo-acutangulo img {
+    width: 15rem;
+    margin: 1585px -375% 0px -375%;
+    /* position: relative; */
+    border: 3px solid #98d8aa;
+    z-index: 0;
+}
+
+.video1 {
+    width: 50rem;
+    margin: 1790px -375% 0px -375%;
+    position: absolute;
+}
+
+.video2 {
+    width: 50rem;
+    margin: 2250px -375% 0px -375%;
+    position: absolute;
+}
+
+.formulas {
+    border: 10px solid #98d8aa;
+    background-color: #98d8aa;
+}

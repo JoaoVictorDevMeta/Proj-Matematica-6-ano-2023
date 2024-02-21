@@ -1,0 +1,179 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+:root {
+  --cor-laranja: #3D8160;
+  --cor-azul: #A8EDEA;
+  --cor-verde: #91c19f;
+  --cor-verde-escuro: #2d8647;
+  --cor-branco: #F0F8FF;
+  --cor-azul-escuro: #2626fd;
+}
+
+p,h1{
+  font-family: 'Red Hat Display', sans-serif;
+}
+a, input{
+  cursor: pointer;
+}
+
+#gradecentral {
+  background-color: var(--cor-laranja);
+  font-size: 15px;
+  padding: 20px;
+  color: var(--cor-branco);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+#grade1 {
+  background-color: var(--cor-azul);
+  text-align: center;
+  height: 75px;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#opcao {
+  float: right;
+  width: 500px;
+  height: 70.8%;
+  background-color: var(--cor-rosa);
+  /* Cor salmão */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#opcao h3 {
+  margin: 0%;
+  padding-right: 100px;
+}
+
+.menu {
+  text-align: center;
+  width: 20%;
+  font-size: 120%;
+  margin-top: 3.5vh;
+  color: var(--cor-branco);
+  text-decoration: none;
+}
+
+#float {
+  margin-top: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 22.5px;
+  width: 100%;
+}
+
+#opcao,
+#float {
+  margin-right: 100px;
+}
+
+#float input {
+  padding: 10px;
+  border: 0px solid;
+  width: 80%;
+  margin: 0% 10%;
+  background-color: var(--cor-verde);
+  /* Cor salmão */
+  margin-bottom: 10px;
+  font-size: 120%;
+  display: block;
+  padding-top: 20px;
+}
+
+#float input:hover {
+  background-color: var(--cor-verde-escuro);
+}
+
+.menu__opcao {
+  text-decoration: none;
+}
+
+img {
+  float: left;
+  margin: 4% 10%;
+  padding-left: 6%;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+/* Pagína fracao */
+
+.corpo__fracao {
+  height: 82%;
+  width: 80%;
+  margin: 0% 10%;
+}
+
+.container__fracao {
+  width: 80%;
+  margin: 0% 10%;
+}
+
+.title__fracao {
+  font-size: 300%;
+  text-align: center;
+}
+
+.paragrafo__fracao {
+  font-size: 140%;
+  text-align: justify;
+}
+
+.grafico {
+  margin-left: -13%;
+  width: 80%;
+}
+
+/* Pagína dos videos */
+
+.container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 30%;
+}
+
+.video {
+  margin-left: 30%;
+  margin-top: 4%;
+  height: 80%;
+  width: 50%;
+}
+
+.descriao {
+  margin-left: -5%;
+  margin-top: 10%;
+  font-size: 120%;
+}
+
+hr {
+  width: 80%;
+}
+
+/* Pagína contatos */
+
+.creditos {
+  font-size: 140%;
+  color: var(--cor-azul-escuro);
+  text-align: center;
+}
+
+corpo__fracao,
+container__fracao,
+title__fracao,
+paragrafo__fracao,
+grafico {
+  margin-left: 30%;
+}

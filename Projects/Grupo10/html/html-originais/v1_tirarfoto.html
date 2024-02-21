@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css">
+  </noscript>
+</head>
+
+<body class="is-preload">
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+      <h1 style="text-align:center">SCANNEAR PELE</h1>
+    </header>
+    <video id="video" width="400" height="300" autoplay></video>
+    <canvas id="canvas" width="400" height="300" style="position: absolute; top: 0; left: 0;"></canvas>
+    <button id="captureButton">Capturar Foto</button>
+    <canvas id="photoCanvas" width="400" height="300" style="display: none;"></canvas>
+    <img id="photo" alt="Sua Foto" style="max-width: 100%; display: none;">
+
+    <script>
+      navigator.mediaDevices.getUserMedia({video: true})
+        .then(function (stream) {
+          var video = document.getElementById('video');
+          video.srcObject = stream;
+
+          // Inicializa o rastreamento facial
+          tracking.track('#video', new tracking.FaceTracker());
+        })
+        .catch(function (error) {
+          console.log("Erro ao acessar a câmera: ", error);
+        });
+
+      document.getElementById('captureButton').addEventListener('click', function () {
+        var video = document.getElementById('video');
+        var canvas = document.getElementById('canvas');
+        var photoCanvas = document.getElementById('photoCanvas');
+        var photo = document.getElementById('photo');
+
+        // Captura um frame do vídeo e coloca no canvas
+        canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+
+        // Converte o conteúdo do canvas para um formato de imagem base64 e exibe na tag img
+        photoCanvas.getContext('2d').drawImage(canvas, 0, 0, photoCanvas.width, photoCanvas.height);
+        photo.src = photoCanvas.toDataURL('image/png');
+
+        // Exibe a foto
+        photo.style.display = 'block';
+      });
+    </script>
+</body>
+
+</html>

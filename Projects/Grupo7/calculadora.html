@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="gradecentral">
+        <a class="menu" href="index.html">Início</a>
+        <h3>|</h3>
+        <a class="menu" href="#">Calculadora</a>
+        <h3>|</h3>
+        <a class="menu" href="contatos.html">Contatos</a>
+        <h3>|</h3>
+        <a class="menu" href="sobre.html">Sobre</a>
+    </div>
+    <div id="grade1">
+        <h1>Calculadora</h1>
+    </div>
+    <div class="calculator-container">
+      <script src="calculadora.js"></script>
+      <div class="calculator">
+          <div class="display" id="display"></div>
+          <div class="buttons">
+              <button onclick="handleButtonClick(event)">7</button>
+              <button onclick="handleButtonClick(event)">8</button>
+              <button onclick="handleButtonClick(event)">9</button>
+              <button class="operator" onclick="handleButtonClick(event)">/</button>
+              <button onclick="handleButtonClick(event)">4</button>
+              <button onclick="handleButtonClick(event)">5</button>
+              <button onclick="handleButtonClick(event)">6</button>
+              <button class="operator" onclick="handleButtonClick(event)">*</button>
+              <button onclick="handleButtonClick(event)">1</button>
+              <button onclick="handleButtonClick(event)">2</button>
+              <button onclick="handleButtonClick(event)">3</button>
+              <button class="operator" onclick="handleButtonClick(event)">-</button>
+              <button onclick="handleButtonClick(event)">0</button>
+              <button onclick="handleButtonClick(event)">.</button>
+              <button class="equals" id="equals" onclick="handleButtonClick(event)">=</button>
+              <button class="operator" onclick="handleButtonClick(event)">+</button>
+          </div>
+      </div>
+        <div class="buttons-container">
+          <button onclick="verificarPrimo()">Divisores</button>
+          <button onclick="criarTabelaMultiplicacao()">Múltiplos</button>
+          <button onclick="executarOperacoes();">Operações com Frações</button>
+          <button onclick="compararFracao()">Comparar Fração</button>
+          <button onclick="converterFracaoDecimal()">Decimal para fração e vice-versa</button>
+          <button onclick="limparTela()">Limpar Tela</button>
+        </div>
+    </div>
+  </script>
+  <script src="script.js"></script>
+  <script src="consec.js"></script>
+  <script src="divs.js"></script>
+  <script src="frac.js"></script>
+  <script src="opfrac.js"></script>
+  <script src="compfrac.js"></script>
+  <script src="dectofrac.js"></script>
+</body>
+</html>

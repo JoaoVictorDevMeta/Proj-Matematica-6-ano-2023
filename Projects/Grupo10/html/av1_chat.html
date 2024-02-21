@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Online</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  
+    <link href="../css/av2_bootstrap.min.css" rel="stylesheet">
+  
+    <link href="../css/av1_2_tooplate-waso-strategy.css" rel="stylesheet">
+  
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff0f5;
+            text-align: center;
+        }
+
+        h2 {
+            color: #800080;
+        }
+
+        #chat-container {
+            max-width: 400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+
+        .message-box {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            max-width: 70%;
+            text-align: left;
+            word-wrap: break-word;
+            position: relative;
+        }
+
+        .user-message {
+            background-color: #e6e6fa;
+            color: #800080;
+            align-self: flex-end;
+            margin-left: auto;
+        }
+
+        .assistant-message {
+            background-color: #d8bfd8;
+            color: #800080;
+            align-self: flex-start;
+            margin-right: auto;
+        }
+
+        .avatar {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            background-image: img('uv2_skin.png');;
+            background-size: cover;
+        }
+
+        #message-input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            box-sizing: border-box;
+            border: 1px solid #800080;
+            border-radius: 5px;
+        }
+
+        #send-button {
+            background-color: #800080;
+            color: white;
+            cursor: pointer;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+    <div class="container">
+
+      <img src="../images/Skin.jpg" style="height: 4%; width: 4%;">
+      <a href="#" class="navbar-brand" style="margin-left: 20px;">Skin <span class="text-purple">Scanner</span></a> 
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#section_1">
+              <small class="small-title"><strong class="text-purple">01</strong></small> INÍCIO
+            </a>
+          </li>
+
+          <!--Novo  click-scroll -->
+          <li class="nav-item">
+            <a class="nav-link" href="av1_cadastro.html">
+              <small class="small-title"><strong class="text-purple">02</strong></small> CADASTRE-SE
+            </a>
+          </li>
+
+          <!--Novo-->
+          <li class="nav-item">
+            <a class="nav-link" href="av1_login.html">
+              <small class="small-title"><strong class="text-purple">03</strong></small> LOGIN
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="av1_faq.html">
+              <small class="small-title"><strong class="text-purple">04</strong></small> FAQ
+            </a>
+          </li>
+
+          </li>
+        </ul>
+        </div>
+        </div>
+  </nav>
+
+    <h2 style="margin-top:90px">Chat Online</h2> <br> <br>
+
+    <div id="chat-container">
+        <div id="chat-box">
+            <!-- Mensagem de boas-vindas inicial -->
+            <div class="message-box assistant-message">
+                <div class="avatar"></div>
+                <p>Assistente: Olá! Como posso ajudar?</p>
+            </div>
+        </div>
+
+        <input type="text" style="margin-top:20px;" id="message-input" placeholder="Digite sua mensagem..." onkeydown="handleKeyPress(event)">
+        <button id="send-button" onclick="sendMessage()" style="margin-top:5px;">Enviar</button>
+    </div>
+
+    <script>
+        var isFirstMessage = true;
+
+        // Função para enviar uma mensagem
+        function sendMessage() {
+            var messageInput = document.getElementById('message-input');
+            var message = messageInput.value;
+
+            if (message.trim() !== '') {
+                var messageBox = document.createElement('div');
+                var messageParagraph = document.createElement('p');
+                messageParagraph.textContent = 'Você: ' + message;
+                messageBox.appendChild(messageParagraph);
+
+                var chatBox = document.getElementById('chat-box');
+
+                // Adicionar classe apropriada com base na condição
+                messageBox.className = 'message-box user-message';
+
+                chatBox.appendChild(messageBox);
+
+                // Verificar palavras-chave
+                checkKeywords(message);
+
+                messageInput.value = '';
+                chatBox.scrollTop = chatBox.scrollHeight;
+
+                // Alterar a condição após o envio da primeira mensagem
+                isFirstMessage = false;
+            }
+        }
+
+        // Verificar palavras-chave e responder automaticamente
+        function checkKeywords(message) {
+            var response = '';
+
+            if (message.toLowerCase().includes('preço')) {
+                response = 'Assistente: Nossos preços podem ser encontrados em nossa página de produtos.';
+            } else if (message.toLowerCase().includes('ajuda')) {
+                response = 'Assistente: Como posso ajudar você hoje?';
+            } else if (message.toLowerCase().includes('contato')) {
+                response = 'Assistente: Para entrar em contato conosco, envie um e-mail para skinscanner@suporte.';
+            } else if (message.toLowerCase().includes('oi')) {
+              response = 'Assistente: Oi!, como posso ajudar você hoje?';
+          }  else if (message.toLowerCase().includes('ola')) {
+              response = 'Assistente: Oi!, como posso ajudar você hoje?';
+          }  else if (message.toLowerCase().includes('dinheiro')) {
+              response = 'Assistente: Você acha mesmo que eu vou te dar dinheiro?';
+
+          }
+
+            if (response !== '') {
+                var responseBox = document.createElement('div');
+                var responseParagraph = document.createElement('p');
+                responseParagraph.textContent = response;
+                responseBox.appendChild(responseParagraph);
+
+                var chatBox = document.getElementById('chat-box');
+                responseBox.className = 'message-box assistant-message';
+
+                // Adicionar avatar à mensagem do assistente
+                var avatar = document.createElement('div');
+                avatar.className = 'avatar';
+                responseBox.insertBefore(avatar, responseBox.firstChild);
+
+                chatBox.appendChild(responseBox);
+                chatBox.scrollTop = chatBox.scrollHeight;
+            }
+        }
+
+        // Enviar mensagem ao pressionar Enter
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+    </script>
+
+</body>
+</html>

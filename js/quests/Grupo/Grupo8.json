@@ -1,0 +1,144 @@
+{
+    "quests": [ 
+        {
+            "type" : "fluxograma",
+            "texts": [
+                "Qual é o símbolo usado para representar uma decisão em um fluxograma?"
+            ],
+            "choices": [
+                "Um círculo",
+                "Um retângulo",
+                "Uma seta",
+                "Um losango",
+                "Um quadrado"
+            ],
+            "correct": 4
+        },
+        {
+            "type" : "fluxograma",
+            "texts": [
+                "Qual é o objetivo de usar um fluxograma de blocos para representar um algoritmo?"
+            ],
+            "choices": [
+                "Facilitar a implementação do algoritmo, usando blocos de código prontos para serem executados em uma linguagem de programação",
+                "Facilitar a compreensão da lógica do algoritmo, usando símbolos gráficos para representar as instruções e os dados",
+                "Facilitar a otimização do algoritmo, usando blocos de funções que podem ser reutilizados em diferentes partes do código",
+                "Facilitar a documentação do algoritmo, usando blocos de texto que descrevem os objetivos e os requisitos do programa",
+                "Facilitar a vizualização do algoritmo, usando blocos de cores diferentes para representar as diferentes partes do código"
+            ],
+            "correct": 2
+        },
+        {
+            "type" : "fluxograma",
+            "texts": [
+                "Qual é o símbolo usado para representar uma entrada ou saída de dados em um fluxograma?"
+            ],
+            "choices": [
+                "Um paralelogramo",
+                "Um trapézio",
+                "Um retângulo arredondado",
+                "Um círculo",
+                "Uma elipse"
+            ],
+            "correct": 1
+        },
+        {
+            "type" : "numeros",
+            "texts": [
+                "(UMC-SP-Modificado) O número de elementos do conjunto dos divisores primos de 60 é:"
+            ],
+            "choices": [
+                "3",
+                "4",
+                "5",
+                "10",
+                "12"
+            ],
+            "correct": 1
+        },
+        {
+            "type" : "numeros",
+            "texts": [
+                "Qual o maior múltiplo de 5 entre 100 e 1001?"
+            ],
+            "choices": [
+                "850",
+                "900",
+                "950",
+                "995",
+                "1000"
+            ],
+            "correct": 5
+        },
+        {
+            "type" : "numeros",
+            "texts": [
+                "Quais todos os números naturais menores que 100 e múltiplos de 15?"
+            ],
+            "choices": [
+                "{15, 30, 45, 60, 75, 90}",
+                "{15, 20, 40, 50, 65, 80}",
+                "{15, 30, 45, 55, 70, 85}",
+                "{15, 30, 50, 75, 85, 100}",
+                "{15, 25, 45, 60, 70, 85}"
+            ],
+            "correct": 1
+        },
+        {
+            "type" : "geometria-plana",
+            "texts": [
+                "Leopoldo desenhou um triângulo com todos os lados iguais (I); depois diminiu um dos lados em 1 cm (II); depois diminuiu um dos outros lados em 3  (III). Os triângulos citados nos casos I, II e III, respectivamente são:"
+            ],
+            "choices": [
+                "Equilátero; Escaleno; Isósceles;",
+                "Escaleno; Equilátero; Isósceles;",
+                "Isósceles; Equilátero; Escaleno;",
+                "Equilátero; Isósceles; Escaleno;",
+                "Escaleno; Isósceles; Equilatero;"
+            ],
+            "correct": 4
+        },
+        {
+            "type" : "geometria-plana",
+            "texts": [
+                "Qual é a fórmula para calcular a área de um retângulo?"
+            ],
+            "choices": [
+                "A = b + h",
+                "A = b - h",
+                "A = b * h",
+                "A = b / h",
+                "A = b ^ h"
+            ],
+            "correct": 3
+        },
+        {
+            "type" : "geometria-plana",
+            "texts": [
+                "Qual é o nome do polígono que tem 15 lados?"
+            ],
+            "choices": [
+                "Pentadecágono",
+                "Hexadecágono",
+                "Heptadecágono",
+                "Octodecágono",
+                "Eneadecágono"
+            ],
+            "correct": 1
+        },
+        {
+            "type" : "geometria-plana",
+            "texts": [
+                "Uma praça possui formato circular, com raio de 8 metros. Utilizando π = 3, a área dessa praça é de:"
+            ],
+            "choices": [
+                "158 m²",
+                "163 m²",
+                "192 m²",
+                "210 m²",
+                "250 m²"
+            ],
+            "correct": 3
+        }
+    ]
+}

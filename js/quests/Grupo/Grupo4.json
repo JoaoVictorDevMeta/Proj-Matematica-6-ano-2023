@@ -1,0 +1,354 @@
+{
+  "quests":[
+    {
+      "type": "grandezas e medidas",
+      "texts": [
+        "Se a abertura do ângulo for maior que 90º e menor que 180º então ele é definido como ângulo:"
+      ],
+      "choices": [
+        "Obtuso",
+        "Reto",
+        "Agudo", 
+        "Raso",
+        "Côncavo"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Isadora chamou seus colegas de sala para comer pizza em sua casa, seu pai que é professor de matemática, decidiu fazer um desafio entre as crianças, e fez a seguinte pergunta: Se usarmos um ângulo de 30 graus para cortar as fatias iguais de uma pizza, em quantas fatias teremos cortado a pizza?"
+      ],
+      "choices": [
+        4,
+        5,
+        8,
+        10,
+        12
+      ],
+      "correct": 5
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": [" O ângulo formado pelo ponteiro da hora e do minuto quando o relógio marca 3 horas mede:"
+      ],
+      "imagem": "https://images.app.goo.gl/P1aNwcga5cYEAZWg9",
+      "choices": [
+        "60°",
+        "30°",
+        "90°",
+        "120°",
+        "180°"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["O senhor Paulo têm três filhos Mateus que é o mais velho, Heitor que é o filho do meio e Isadora que é a filha mais nova. Em um sábado a noite senhor Paulo comprou uma pizza para os três filhos, Isadora comeu uma fatia de pizza correspondente a 45 graus, Heitor comeu um pedaço com o dobro do tamanho que Isadora comeu e Mateus comeu um pedaço com o dobro do tamanho do pedaço que o Heitor comeu.",
+        "Podemos afirmar que:"
+      ],
+      "choices": [
+        "Os três irmãos comeram a pizza inteira.",
+        "Mateus comeu menos que a metade da pizza.",
+        "Heitor comeu mais que a metade da pizza.",
+        "Sobrou uma fatia do mesmo tamanho daquela que a Isadora tinha comido.",
+        "Não há pizza suficiente para a Isadora comer a mesma quantidade que o Heitor."
+      ],
+      "correct": 4
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Sabendo que o ângulo α corresponde a um quarto (1/4) de volta, o ângulo ß corresponde a um terço (1/3) de volta e o ângulo δ corresponde a um sexto (1/6) de volta. Assinale a alternativa que possui os valores, respectivamente, de a, ß e δ em graus."
+      ],
+      "choices": [
+        "120°, 180° e 65°",
+        "90°, 120° e 60°",
+        "100°,120° e 45°",
+        "90°,125° e 55°",
+        "Nenhuma das Anteriores"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(Toda matéria) Sabendo que dois ângulos x e y são suplementares e, que o ângulo x possui 36º, a medida do ângulo y é igual a:"
+      ],
+      "choices": [
+        "24°",
+        "36°",
+        "64°",
+        "144°",
+        "324°"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Observe a imagem do transferidor onde estão determinados os ângulos A, P, V, L e R. Depois marque a opção que fornece o resultado da expressão:"
+      ],
+      "imagem": "https://static.todamateria.com.br/upload/ve/to/vetores2.jpg?auto_optimize=low",
+      "choices": [
+        "3A + 2P - L = 100º",
+        "P - A + V - L = 10º",
+        "2V - 3A = 70º",
+        "R - L - (L-V) = 20º",
+        "R + 2A = 360º"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Por que a escala é importante ao desenhar uma planta baixa?"
+      ],
+      "choices":[
+        "Para indicar a cor das paredes.",
+        "Para representar o estilo de decoração",
+        "Para garantir que as proporções sejam precisas.",
+        "Para contar a quantidade de cômodos.",
+        "Para indicar a quantidade de luz natural."
+      ],
+      "correct": 3
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(UECE 2022) Durante a construção de uma estrada, utilizou-se uma representação cartográfica cuja escala era de 1:25 000. Nesse mapa, a estrada foi representada por uma linha com 12,7 cm de comprimento.",
+        "Assim, é correto afirmar que o comprimento real dessa estrada no terreno é:"
+      ],
+      "choices": [
+        "3.175 m",
+        "1.968 m",
+        "2,51 km",
+        "4,27 km",
+        "Nenhuma das Anteriores"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(UNISC 2022)Em seus três dias de folga, Francisco e Isabela vão fazer uma viagem. Estavam em dúvida se iriam de bicicleta ou de carro. Como tinham em mãos apenas um mapa impresso da região, de escala 1:350 000 e uma régua, decidiram calcular a distância a percorrer do ponto A ao B (os pontos demarcam as cidades do início e fim da viagem, respectivamente). Nesse mapa, em linha reta, mediram 22 cm de deslocamento.",
+          "Então, sabendo dessas informações, a medida registrada no mapa, na realidade representa quantos km?" 
+      ],
+      "choices": [ 
+        "42 km",
+        "65 km",
+        "75 km",
+        "77 km",
+        "87 km"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(ENEM 2017) Uma equipe de ambientalistas apresentou um mapa de uma reserva ambiental em que faltava a especificação da escala utilizada para a sua confecção. O problema foi resolvido, pois um dos integrantes da equipe lembrava-se de que a distância real de 72 km, percorrida na reserva, equivalia a 3,6 cm no mapa.",
+        "Qual foi a escala utilizada na confecção do mapa?"
+      ],
+      "choices": [  
+        "1 : 20",
+        "1 : 2 000",
+        "1 : 20 000",
+        "1 : 200 000",
+        "1 : 2 000 000"
+      ],
+      "correct": 5
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(ENEM  2011)Sabe-se que a distância real, em linha reta, de uma cidade A, localizada no estado de São Paulo, a uma cidade B, localizada no estado de Alagoas, é igual a 2 000 km. Um estudante, ao analisar um mapa,  verificou com sua régua que a distância entre essas duas cidades, A e B, era 8 cm." ,
+        "Os dados nos indicam que o mapa observado pelo estudante está na escala de:"
+      ],
+      "choices": [
+        "1 : 250",
+        "1 : 2 500",
+        "1 : 25 000",
+        "1 : 250 000",
+        "1 : 25 000 000"
+      ],
+      "correct": 5
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(USCS 2022/1)Em um mapa com escala 1:8000000, o trajeto entre duas cidades é de 6 cm.",
+        "Sabendo que o preço da gasolina era R$ 5,10 por litro, o custo desta viagem com um carro que faz 12 km/L será em torno de:"
+      ],
+      "choices": [
+        "R$ 204,00",
+        "R$ 320,00",
+        "R$ 480,00",
+        "R$ 576,00",
+        "R$ 800,00"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(ENEM  2017)No centro de uma praça será construída uma estátua que ocupará um terreno quadrado com área de 9 metros quadrados. O executor da obra percebeu que a escala do desenho na planta baixa do projeto é de 1 : 25.",
+        "Na planta baixa, a área da figura que representa esse terreno, em centímetro quadrado, é:"
+      ],
+      "choices": [
+        "144",
+        "225",
+        "3 600",
+        "7 500",
+        "32 400"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(PUC-MG 2016)Em uma fotografia aérea, certo trecho retilíneo de estrada, que mede 12,5km , aparece medindo 5cm ; na mesma fotografia, uma área queimada aparece medindo 9 cm2.",
+        "Então a medida real da área da superfície queimada, em quilômetros quadrados, é:"
+      ],
+      "choices": [
+        "25,00",
+        "50,00",
+        "38,39",
+        "42,36", 
+        "56,25"
+      ],
+      "correct": 5
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Cleiton está construindo uma pequena casa de madeira em seu quintal. Ele desenhou uma planta baixa simples, mostrando as dimensões e a disposição dos cômodos. A casa tem uma sala, uma cozinha, um banheiro e dois quartos. A sala tem 12 m² de área, o banheiro tem 4 m², e a cozinha tem 8 m². A área total da casa é 40 m². Considerando que ambos os quartos têm áreas iguais, qual é a área de cada quarto?"
+      ],
+      "choices": [
+        "5 m²",
+        "14 m²",
+        "6 m²",
+        "8 m²",
+        "10 m²"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["O que acontece com um quadrado quando seu tamanho é reduzido?"
+      ],
+      "choices": [
+        "Sua área e perímetro diminuem.",
+        "Sua área aumenta, mas o perímetro diminui.",
+        "O perímetro aumenta e a área diminui.",
+        "O perímetro e a área permanecem constantes",
+        "Sua área e perímetro aumentam."
+      ],
+      "correct": 5
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": [" Definimos como perímetro:"
+      ],
+      "choices": [
+        "a medida da superfície de uma figura plana.",
+        "a capacidade de um sólido geométrico.",
+        "o comprimento de uma das dimensões de uma figura plana.",
+        "o comprimento do contorno de uma figura plana.",
+        "o espaço ocupado por um sólido geométrico."
+      ],
+      "correct": 4
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(PUC-RIO 2007) Num retângulo de perímetro 60, a base é duas vezes a altura. Então a área é:"
+      ],
+      "choices": [
+        "200",
+        "300",
+        "100",
+        "50",
+        "30"
+      ],
+      "correct": 1
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["(UFMT) Assinale a medida do lado de um quadrado sabendo que o número que representa seu perímetro é o mesmo que representa sua área."
+      ],
+      "choices": [
+        5,
+        4,
+        6,
+        8,
+        10
+      ],
+      "correct": 2
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Juliana possui dois tapetes de mesma área. O tapete quadrado possui lado de 4 m e o tapete retangular tem altura de 2 m e base de 8 m. Qual tapete apresenta o maior perímetro?"
+      ],
+      "choices": [
+        "O tapete quadrado tem o maior perímetro",
+        "O tapete retangular tem o maior perímetro",
+        "O tapete quadrado tem o menor perímetro",
+        "O tapete retangular tem o menor perímetro",
+        "Os perímetros são iguais"
+      ],
+      "correct": 2
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["A superfície do celular de Fernanda tem um formato retangular, de modo que sua altura é equivalente a 8/5 de sua largura.",
+        "Considerando que a superfície tem uma área de 40 cm2 , qual o seu perímetro?"
+      ],
+      "choices": [
+        "13 cm.",
+        "19 cm.",
+        "23 cm.",
+        "26 cm.",
+        "30 cm."
+      ],
+      "correct": 4
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Qual a área e o perímetro de um campo de futebol, de base 25 m e altura 5 m?"
+      ],
+      "choices": [
+        "A= 100m², P= 50m",
+        "A= 150m², P= 60m",
+        "A= 125m², P= 60m",
+        "A= 120m², P= 50m",
+        "A= 100m², P= 60m"
+      ],
+      "correct": 3
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Se a medida do lado de um quadrado é duplicada, qual será o efeito correspondente no perímetro?"
+      ],
+      "choices": [
+        "O perímetro será reduzido pela metade.",
+        "O perímetro permanecerá o mesmo.",
+        "O perímetro será triplicado.",
+        "O perímetro será quadruplicado.",
+        "O perímetro será dividido por 4"
+      ],
+      "correct": 4
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["Se a medida do lado de um quadrado é reduzida pela metade, como isso afeta o perímetro?"
+      ],
+      "choices": [
+        "O perímetro é reduzido a um terço.",
+        "O perímetro é reduzido pela metade.",
+        "O perímetro é mantido constante.",
+        "O perímetro é dobrado.",
+        "O perímetro é triplicado."
+      ],
+      "correct": 2
+    },
+    {
+      "type": "grandezas e medidas",
+      "texts": ["O perímetro de um quadrado é diretamente proporcional à medida do lado. Se um quadrado tem um perímetro de 24 metros, qual é a medida do lado?"
+      ],
+      "choices": [
+        "3 metros",
+        "6 metros",
+        "8 metros",
+        "10 metros",
+        "12 metros"
+      ],
+      "correct": 2
+    }
+  ]
+}

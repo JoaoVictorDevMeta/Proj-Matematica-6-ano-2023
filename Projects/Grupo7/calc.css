@@ -1,0 +1,127 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+:root {
+  --cor-laranja: #3D8160;
+  --cor-azul: #A8EDEA;
+  --cor-verde: #91c19f;
+  --cor-verde-escuro: #2d8647;
+  --cor-branco: #F0F8FF;
+  --cor-azul-escuro: #2626fd;
+}
+
+#gradecentral {
+  background-color: var(--cor-laranja);
+  font-size: 20px;
+  padding: 20px;
+  color: var(--cor-branco);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  clear: both;
+  display: flex;
+  justify-content: center;
+}
+
+#grade1 {
+  background-color: var(--cor-azul);
+  text-align: center;
+  height: 75px;
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#opcao {
+  float: right;
+  width: 500px;
+  height: 70.8%;
+  background-color: var(--cor-rosa);
+  /* Cor salmão */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#opcao h3 {
+  margin: 0%;
+  padding-right: 100px;
+}
+
+.menu {
+  text-align: center;
+  width: 20%;
+  font-size: 120%;
+  margin-top: 3.5vh;
+  color: var(--cor-branco);
+  text-decoration: none;
+}
+
+.calculator-container {
+    position: absolute;
+    top: 230px; /* Ajuste conforme necessário */
+    right: 20px; /* Ajuste conforme necessário */
+    margin-right: 20px; /* Espaçamento à direita */
+    display: flex;
+    gap: 1px;
+    justify-content: flex-start;
+}
+
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1;
+    max-width: 300px;
+    padding-right: 0%;
+    padding-bottom: 15px;
+    top: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 1em 2em; /* Ajuste a altura e a largura dos botões conforme necessário */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px; /* Adicionado espaçamento horizontal entre os botões */
+}
+
+.operator,
+.equals {
+    font-size: 1em; /* Ajuste o tamanho do texto dos operadores e do botão de igual */
+    padding: 1em 2em; /* Ajuste a altura e a largura dos botões de operadores e igual */
+    margin-left: -8px;
+    margin-right: 1px; /* Adiciona espaçamento à direita */
+}
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px; /* Ajuste o recuo à esquerda conforme necessário */
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+.display {
+    font-size: 1.5em;
+    height: 3em; /* Ajuste a altura do display conforme necessário */
+    text-align: right;
+    padding: 0.1em;
+    border-bottom: 1px solid #ccc;
+    background-color: #ff6347;
+    padding-right: 10px;
+}
+.tabela, .paragrafo{
+  margin-left: 150px;
+}

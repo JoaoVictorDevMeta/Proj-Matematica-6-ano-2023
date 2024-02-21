@@ -1,0 +1,410 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mat Class | Grupo 11</title>
+      <link rel="stylesheet" href="./style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&family=Inter:wght@200;300;400;500;700&family=Red+Hat+Display:wght@300;400;500;600;800&family=Imprima&family=Vina+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <header>
+    <nav>
+      <img src="https://drive.google.com/uc?export=view&id=1ZZMsmA-IP0lcevzTGfV3pU2G4ekGG5Sd">
+      <ul class="nav-items">
+        <li>
+      <a href="/views/index.html">Página Inicial</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="grupo-info">
+      <div id="gi-conteudo">
+        <div id="gi-header">
+        <h1>Grupo 11: EF06MA17, EF06MA21, EF06MA22</h1>
+        <h1>Gustavo M, Endrel D. e Derik G.</h1>
+        </div>
+        <p>Nesta página iremos abordar principalmente geometria, apresentando os poliedros e corpos redondos e seus diferentes tipos e classificações, será explicado ainda os conceitos de espaço geométrico, planificações, ampliação e redução e por último, mas não menos importante a construção de retas e figuras planas</p>
+      </div>
+    </section>
+    <section class="geometria texto">
+      <div class="fundo">
+      <nav>
+        <ul id="biblio">
+        <li><p>Geometria Espacial:</p></li>
+          <li><a href="#geo">1 - <span>Espaço Geométrico Bidimensional</span></a></li>
+          <li><a href="#geo">2 - <span>Espaço Geométrico Tridimensional</span></a></li>
+          <li><a href="#poli2">3 - <span>Poliedros</span></a></li>
+            <li><a href="#poli2">3.1 - <span>Sólidos de Platão</span></a></li>
+            <li><a href="#prism">3.2 - <span>Prisma</span></a></li>
+                <li><a href="#prism">3.2.1 - <span>Tipos e Classes</span></a></li>
+                <li><a href="#prism">3.2.2 - <span>Principais Elementos</span></a></li>
+            <li><a href="#pira">3.3 - <span>Pirâmide</span></a></li>
+              <li><a href="#pira">3.3.1 - <span>Tipos e Classes</span></a></li>
+              <li><a href="#pira-e">3.3.2 - <span>Principais Elementos</span></a></li>
+          <li><a href="#redondoc">4 - <span>Corpos Redondos</span></a></li>
+            <li><a href="#redondoc">4.1 - <span>Cone</span></a></li>
+            <li><a href="#redondoc">4.2 - <span>Cilindro</span></a></li>
+            <li><a href="#redondoc">4.3 - <span>Esfera</span></a></li>
+          <li><a href="#plan">5 - <span>Planificações</span></a></li>
+            <li><a href="#plan">5.1 - <span>Sólidos de Platão</span></a></li>
+            <li><a href="#plan">5.2 - <span>Prisma</span></a></li>
+            <li><a href="#plan">5.3 - <span>Pirâmide</span></a></li>
+            <li><a href="#plan">5.4 - <span>Cone</span></a></li>
+            <li><a href="#plan">5.5 - <span>Cilindro</span></a></li>
+            <li><a href="#plan">5.6 - <span>Esfera</span></a></li>
+          <li><p>Geometria Plana:</p></li>
+            <li><a href="#amp">6 - <Span>Ampliação e Redução</span></a></li>
+              <li><a href="#amp">6.1 - <Span>Métodos de Ampliação e Redução</span></a></li>
+          <li><a href="#creta">7 - <Span>Retas Paralelas e Perpendiculares</span></a></li>
+            <li><a href="#creta">7.1 - <span>Construção de Retas e Figuras Planas</span></a></li>
+          </ul>
+      </nav>
+      <div id="geo">
+        <div id="geocaixa">
+        <div>
+        <h1>Geometria Espacial</h1>
+        <p>A geometria espacial é área da matemática focada no estudo de figuras tridimensionais, também conhecidas como sólidos geométricos. Os principais elementos da geometria espacial são os elementos primitivos, o ponto, a reta, o plano e o espaço, e apesar de não possuírem uma definição concreta eles são a base da geometria.</p>
+      </div>
+      <div>
+        <h1>Espaço Geométrico Bidimensional</h1>
+        <p>Como o nome indica o espaço geométrico bidimensional ou plano possui duas dimensões, o comprimento e a largura, ele consiste de um plano formado pela justaposição de infinitas retas perpendiculares, nele podemos construir figuras bidimensionais, também conhecidas como figuras planas, já que são construídas em um plano, entre elas temos o quadrado, o círculo, o retângulo, etc.</p>
+      </div>
+        <div>
+        <h1>Espaço Geométrico tridimensional</h1>
+        <p>Infinito e ilimitado, o espaço geométrico tridimensional, também conhecido apenas como espaço, é todo o espaço que nos rodeia, como o nome indica ele possui 3 dimensões, podendo ser representado por 3 eixos, x, y e z, um para cada dimensão. Nele podemos medir comprimento, largura e profundidade, e é apenas a partir dele que podemos construir e representar objetos tridimensionais.</p>
+      </div>
+      </div>
+      <div class="fotos">
+        <div>
+          <img src="https://drive.google.com/uc?export=view&id=1KpYAdi-qbywT7v3Eb3dJ_oNOnVVgf6oU" >
+        </div>
+        <div>
+          <img src="https://drive.google.com/uc?export=view&id=1l9qPlftPIWgucJXC0xDAKPKG3fiKHEvO">
+        </div>
+        <div>
+          <img src="https://drive.google.com/uc?export=view&id=1UepK_W98s7DaBcwN3UOrscP8wJR1ICt5">
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section class=" texto polie" id="poli2">
+      <div id="poli">
+      <div id="po">
+      <h1>Poliedros:</h1>
+      <p>Os poliedros são sólidos geométricos fechados que possuem todas as suas faces formadas por polígonos, a união desses polígonos formam seus elementos: os vértices, as arestas e as faces. Os poliedros podem ainda ser classificados como convexos e não convexos, se algum segmento de reta que liga dois pontos no poliedro não estiver totalmente contido nele, ele será não convexo ou côncavo, caso contrário, ele será convexo.</p>
+      <p> Existem vários exemplos de Poliedros entre eles temos:</p>
+      </div>
+        <div>
+        <img id="polifotos" src="https://drive.google.com/uc?export=view&id=1B8c64BUOaFg5ka4EBk9JIvSY22m2boye">
+      </div>
+      </div>
+      <div id="poc2">
+        <div id="poc3">
+        <h1>Sólidos de Platão</h1>
+        <p>Os sólidos de platão são poliedros que possuem apenas faces congruentes(iguais). Entre eles temos o tetraedro, o hexaedro, octaedro, o dodecaedro e o icosaedro, todos eles são poliedros regulares, ou seja, arestas e faces congruentes.
+        </p>
+        </div>
+        <img  src="https://drive.google.com/uc?export=view&id=1gxBWZuv_meLv_dZ2lKXmkjSyxJU4dL-X">
+      </div>
+    </section>
+    <section class="prisma texto">
+      <div id="prism">
+      <div id="oq">
+      <div id="prismaoq">
+      <h1>Prisma:</h1>
+      <p>O prisma é um dos principais tipos de poliedro, ele é um poliedro convexo formado por dois polígonos congruentes e paralelos como base, além de faces planas, nomeados paralelogramas, como suas laterais. </p>
+      </div>
+        <div id="oqfotos">
+          <img src="https://drive.google.com/uc?export=view&id=14zNFYKKpplKV8ZEQ8kw6asfra0Zzjv_r">
+          <img src="https://drive.google.com/uc?export=view&id=1DW7mZ5S0zAbfGalg3-uPPtUUkrZqk95e">
+          
+        </div>
+      </div>
+      <h1 class="tipoprisma">Tipos e Classes de Prisma:</h1>
+      <p class="tipoprisma"> Dependendo de sua inclinação eles podem ser classificados em retos, quando o ângulo entre suas bases e lados é de 90º, ou oblíquos, quando esses ângulos são diferentes de 90º.Vale destacar ainda que o prisma é nomeado de acordo com o polígono de sua base, no caso de um prisma de base triangular ele seria um prisma triangular:</p>
+      <div id="fotostipoprisma">
+              <div id="prism-e">
+        <h1>Principais Elementos:</h1>
+        <p>Os seus principais elementos são sua base, faces laterais, arestas e vértices, como citado anteriormente as suas bases podem ser qualquer polígono, já as suas laterais sempre são paralelogramas. A quantidade de faces, arestas e vértices variam de prisma para prisma dependendo de sua base:
+</p>
+        <h2>vértices:</h2>
+        <p>2*número de vértices do polígono da base</p>
+        <h2>arestas:</h2>
+        <p>3*número de arestas do polígono da base</p>
+        <h2>faces:</h2>
+        <p>2+número de lados do polígono da base</p>
+      </div>
+        <img src="https://drive.google.com/uc?export=view&id=1xAOw_JSJrFpw6SNN78F2t2uIPVSVUkXI">
+      </div>
+    </section>
+    <section class="sessao texto piramide">
+      <div id="pira">
+        <h1>Pirâmide</h1>
+        <p>Além do prisma outro poliedro importante de se destacar é a pirâmide, ele é um poliedro convexo formado por um polígono como sua base, um vértice, o ponto mais distante da sua base, responsável por unir todas as suas faces laterais e as suas faces laterais triangulares.
+</p>
+        <h1>Tipos e Classes da Pirâmide</h1>
+        <p> Como o prisma, a pirâmide também pode ser classificada de acordo com sua inclinação, dependendo do ângulo entre a reta da sua altura e a sua base, no caso de um ângulo de 90º ela pode ser classificada como reta, já no caso de qualquer outro ângulo ela seria oblíqua.</p>
+        <p>A pirâmide pode ainda ser classificada e nomeada de acordo com o polígono de sua base:</p>
+      </div>
+        <div id="divf3">
+        <img id="foto3" src="https://drive.google.com/uc?export=view&id=1Hcmoq8BMqSNltTtqXomTON9R2e1vYln9">
+      </div>
+    </section>
+  <section class="piraelemento texto">
+    <div id="pira-e">
+      <h1>Principais Elementos:</h1>
+   <p> Além da base, faces laterais, arestas e vértices, a pirâmide possui ainda a altura, um segmento que liga o vértice da pirâmide ao centro da sua base, e as suas apótemas, a altura dos triângulos que formam as suas laterais e a distância entre o centro da base e um de seus lados . Assim como o prisma a quantidade de faces, arestas e vértices variam de acordo com a base da pirâmide:
+        <h2>vértices:</h2>
+        <p>1+número de vértices do polígono da base</p>
+        <h2>arestas:</h2>
+        <p>2*número de arestas do polígono da base</p>
+        <h2>faces:</h2>
+        <p>2+número de lados do polígono da base</p>
+   </div>
+    <div class="divvideo1">
+      <p>Video explicativo da primeira parte do Conteúdo</p>
+       <iframe class="video"
+      src="https://www.youtube.com/embed/exkzpHad1J0">
+      </iframe>  
+    </div>
+  </section>
+  <section class="credondo texto">
+    <div id="redondoc">
+    <div class="textoredo">
+    <h1>Corpos Redondos</h1>
+    <p>Os corpos redondos, ou sólidos de revolução, isto é, que podem ser construídos a partir da rotação de uma figura plana, são sólidos geométricos que possuem pelo menos uma superfície arredondada, entre os principais corpos redondos temos a esfera, o cilindro e o cone.</p>
+      <h1>Cone:</h1>
+      <p>O cone é caracterizado por possuir um círculo como base, e pode ser construído a partir da rotação de um triângulo, ele pode ser tanto reto, no caso da sua altura e o centro da sua base formarem um ângulo de 90º, ou oblíquo caso contrário.
+</p>
+        <h1>Cilindro:</h1>
+        <p>Já o cilindro é caracterizado por possuir dois círculos congruentes e paralelos como base e uma superfície lateral arredondada, sendo formado pela rotação de um retângulo, pode ser ainda classificado em reto e oblíquo.
+</p>
+        <h1>Esfera:</h1>
+        <p>Diferente dos outros a esfera não possui uma base circular, ela é completamente redonda, sendo construída a partir da rotação de um círculo. Vale ainda destacar que todos os pontos da superfície da esfera estão à mesma distância do centro.</p>
+      </div>
+      <div>
+        <img src="https://drive.google.com/uc?export=view&id=1Jitd2W-0bSV4JEr_j3ECKXKVLTiUQttk">
+      </div>
+    </div>
+    </div>
+    </section>
+    <section class="planificacao texto">
+      <div id="plan">
+      <div class="conjrow">
+        <div class="conjplani">
+        <h1>Planificações</h1>
+        <p>A planificação consiste na representação de todas as faces de um sólido geométrico em apenas um plano, isto é, representar um objeto tridimensional em apenas duas dimensões, permitindo assim a completa visualização do sólido. Ela é importante na hora de realizar cálculos de área ou na criação de moldes para montar esses sólidos.</p>
+        </div>
+        <img src="https://drive.google.com/uc?export=view&id=1JH2W2E_jTe59PcXp7IiOlvgizGbDQmO1">
+      </div>
+      <div class="conjrow">
+        <div class="conjplani">
+        <h1>Sólidos de platão:</h1>
+        <p>A planificação de sólidos de platão como o cubo(hexaedro) ou a pirâmide de base triangular(tetraedro), consiste numa repetição do polígono que forma qualquer uma de suas faces, um no centro, conectado a uma quantidade igual ao seu número de lados de outros polígonos iguais a qualquer uma de suas faces.</p>
+        </div>
+        <img src="https://drive.google.com/uc?export=view&id=11HZMdEZA3lVYt5V3bXJmshlq7vbtEFkk">
+      </div>
+      <div class="conjrow">
+        <div class="conjplani">
+        <h1>Prisma:</h1>
+        <p>Já no caso do prisma as suas planificações vão possuir dois polígonos um para cada base, conectados a uma quantidade de paralelogramos igual ao número de lados do polígono da base.</p>
+        </div>
+        <img src="https://drive.google.com/uc?export=view&id=1txkxV2MhJ_hbVIn4Mibs0gL-h-19a-UM">
+      </div>
+      <div class="conjrow">
+        <div class="conjplani">
+        <h1>Pirâmide:</h1>
+        <p>No caso da planificação da pirâmide, vamos ter o polígono que forma a sua base e uma quantidade de triângulos conectados a esse polígono igual ao número de lados do mesmo.</p>
+        </div>
+      <img src="https://drive.google.com/uc?export=view&id=1mxkm0Wtt82Fu6acygpPnYgszdeJTykwf"></div>
+        
+      <div class="conjrow">
+        <div class="conjplani">
+        <h1>Cone:</h1>
+        <p>Na planificação de cones vamos ter 2 figuras planas, a sua a base circular e a sua face lateral, que consiste essencialmente em um triângulo onde o lado que é conectado a base do cone é um arco com largura igual ao perímetro dessa base.</p>
+        </div>
+      <img src="https://drive.google.com/uc?export=view&id=1rFmIYqOX2O-OEQ2uDNdXIwLCs01UN7Rm"></div>
+        
+        <div class="conjrow">
+          <div class="conjplani">
+        <h1>Cilindro:</h1>
+        <p>No cilindro a gente vai ter 3 figuras planas, duas bases circulares e um paralelogramo para a sua face lateral, a largura desse paralelograma vai ser sempre igual ao perímetro das bases circulares com a qual está conectado.</p>
+          </div>
+        <img src="https://drive.google.com/uc?export=view&id=1rKqmo5fkfEcfu0kTqznjqDZSBNxEEzGi"></div>
+        
+          <div class="conjrow"> 
+            <div class="conjplani">
+        <h1>Esfera:</h1>
+        <p>Já no caso da esfera, diferentemente do cilindro ou do cone, ela não pode ser representado por meio de uma planificação, isso se dá devido a complexidade de sua forma, o mais próximo da representação da planificação de uma esfera seria um sólido geométrico com tantas faces que ele dá a impressão de que ele é esférico.</p>
+            </div>
+              <img src="https://drive.google.com/uc?export=view&id=11kdr3CsyQHSMHmSoynzPsCHUIWrDK2D7">
+          </div>
+      </div>
+    </section>
+<section class="obs texto">
+      <div>
+        <h3>Obs.: Vale destacar que as planificações apresentadas são apenas um exemplo de como cada planificação pode e vai ser apresentada, já que a posição e organização dos elementos de uma dada planificação podem variar de acordo com a intenção do autor.</h3>
+      </div>
+    </section>
+    <section class="amp texto">
+      <article id="amp" class="borda">
+      <div>
+        <h1>Ampliação e Redução</h1>
+      </div>
+      
+      <div>
+        <p>A redução e ampliação de figuras planas consistem respectivamente em diminuir e aumentar o tamanho de dita figura, ao mesmo tempo que mantém suas proporções e características, isto é, mantendo a semelhança entre os elementos da figura.</p>
+      </div>
+      <div>
+        <h1>Outros Métodos de Ampliação e Redução:</h1>
+        <p>Tanto na Ampliação quanto redução podemos utilizar de um fator de multiplicação para reduzir ou aumentar figura, isto é, multiplicar todos os lados da figura por um mesmo valor, 1.2 por exemplo causaria um aumento de 20% na figura, já 0.8 uma redução de 20%. Além desse método, podemos usar ainda grades, malhas ou planos cartesianos, que ajudam a manter a precisão na hora de representar figuras de mesma proporção em escalas diferentes através da comparação das posições dos objetos na malha.</p>
+      </div>
+      <div id="creta">
+        <h1>Construção e Aplicação de Retas Paralelas e Perpendiculares</h1>
+        <p>As retas paralelas são retas que não possuem interseção em um mesmo plano, ou seja, nunca se encontram ou se aproximam, já as retas perpendiculares são retas que possuem pelo menos um ponto em comum que forma um ângulo reto(90 graus) entre si.</p>
+      </div>
+        <article class="conjvideo">
+      <div>
+        <p>Video explicativo da segunda parte do Conteúdo</p>
+        <iframe class="videobig"
+        src="https://www.youtube.com/embed/F4rLv4QdBio">
+        </iframe>
+      </div>
+      <div>
+        <p>Video mostrando a construção de Retas e Figuras Planas:</p>
+        <iframe class="videobig"
+        src="https://www.youtube.com/embed/n8VpesJmsZQ">
+        </iframe>
+        </div>
+        </article>
+      </article>
+    </section>
+        <section class="sessaob texto">
+    <div id="exe-header">
+      <h1>Exercícios</h1>
+    </div>
+    <div class="exe-content conjexe">
+      <div>
+        <h1>Questão - 1</h1>
+        <p>Quando um polígono é reduzido, podemos afirmar que:</p>
+        <p>A) As medidas de seus lados não se alteram.</p>
+        <p>B) As medidas de seus ângulos e de seus lados se alteram.</p>
+        <p>C) As medidas de seus ângulos não se alteram.</p><!--correta-->
+      </div>
+      <div>
+        <h1>Questão - 2</h1>
+        <p>Das figuras geométricas a seguir, marque a alternativa que possui somente poliedros:</p>
+        <p>A) Cubo, triângulo, pirâmide, circunferência.</p>
+        <p>B) Quadrado, paralelepípedo, cone, trapézio.</p>
+        <p>C) Prisma Pentagonal, tetraedro, cubo, piramide quadrada</p><!--correta-->
+        <p>D) Esfera, retângulo, cilindro, prisma.</p>
+      </div>
+      <div>
+        <h1>Questão - 3</h1>
+        <p>Um engenheiro responsável pelos diagramas de casas deseja montar o diagrama de uma casa em formato de cubo, cada lado da casa tem 1 metro.</p>
+        <p>Se ele deseja fazer o diagrama com uma conversão de 1:20 cm, quantos cm vai ter cada lado da casa no diagrama?</p>
+        <p>A) 4</p>
+        <p>B) 5</p><!--correta-->
+        <p>C) 6</p>
+        <p>D) 3</p>
+      </div>
+      <div>
+        <h1>Questão - 4</h1>
+        <p>Sobre a posição relativa entre duas retas em um plano, associe corretamente as colunas a seguir:</p>
+        <p>1. Retas concorrentes</p>
+        <p>2. Retas paralelas</p>
+        <p>(  ) Retas que não possuem pontos em comum.</p>
+        <p>(  ) Retas que formam 4 ângulos de 90 graus.</p>
+        <p>(  ) Retas que possuem um único ponto em comum.</p>
+        <p>(  ) Retas que nunca se encontram.</p>
+        <p>Marque a alternativa que possui a ordem correta da associação entre as colunas:</p>
+        <p>A) 1,2,1,2</p><!--correta-->
+        <p>B) 2,1,1,2</p>
+        <p>C) 1,2,2,1</p>
+        <p>D) 1,1,2,1</p>
+      </div>
+      <div>
+        <h1>Questão - 5</h1>
+        <p>Das figuras geométricas a seguir, marque a alternativa que possui somente corpos redondos:</p>
+        <p>A) Cubo, triângulo, circunferência.</p>
+        <p>B) Circulo, paralelepípedo, Esfera.</p>
+        <p>C) Prisma Pentagonal, cone, piramide quadrada.</p>
+        <p>D) Esfera, Cone, cilindro.</p><!--correta-->
+      </div>
+      <div>
+        <h1>Questão - 6</h1>
+        <p>Quantos vértices tem uma Pirâmide Pentagonal?</p>
+        <p>A) 5</p>
+        <p>B) 3</p>
+        <p>C) 4</p>
+        <p>D) 6</p><!--correta-->
+      </div>
+      <div>
+        <h1>Questão - 7</h1>
+        <p>Quantas Arestas tem um Prisma de Base Hexagonal?</p>
+        <p>A) 18</p><!--correta-->
+        <p>B) 16</p>
+        <p>C) 24</p>
+        <p>D) 12</p>
+      </div>
+      <div>
+        <h1>Questão - 8</h1>
+        <p>Quantas faces tem um hexaedro?</p>
+        <p>A) 6</p><!--correta-->
+        <p>B) 5</p>
+        <p>C) 4</p>
+        <p>D) 8</p>
+      </div>
+      <div>
+        <h1>Questão - 9</h1>
+        <p>Quantos vértices tem uma pirâmide de base octagonal?</p>
+        <p>A) 8</p>
+        <p>B) 9</p><!--correta-->
+        <p>C) 6</p>
+        <p>D) 10</p>
+      </div>
+      <div>
+        <h1>Questão - 10</h1>
+        <p>Das figuras geométricas a seguir, qual tem a menor quantidade de arestas?</p>
+        <p>A) Cubo</p>
+        <p>B) Pirâmide de base octagonal</p>
+        <p>C) Tetraedro</p><!--correta-->
+        <p>D) Prisma petagonal</p>
+      </div>
+      <div>
+
+        <h1>Gabarito</h1>
+        <p>1-C</p>
+        <p>2-C</p>
+        <p>3-B</p>
+        <p>4-A</p>
+        <p>5-D</p>
+        <p>6-D</p>
+        <p>7-A</p>
+        <p>8-A</p>
+        <p>9-B</p>
+        <p>10-C</p>
+  
+    </div>
+  </section>
+    <section class="forma texto">
+      <div id="form-header">
+        <h1>Formulário</h1>
+      </div>
+      <div class="exe-content conjvideo">
+        <p>Após completar todas as questões acredito que você esteja pronto para o formulário.</p>
+        <p>Só clicar no botão e Boa Sorte!</p>
+        <a id="botao" href="/views/form.html?gg=11">Clique Aqui</a>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
